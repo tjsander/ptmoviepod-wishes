@@ -98,22 +98,25 @@ PAGE = r"""<!doctype html>
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--accent); text-underline-offset: 2px; }
-main { max-width: 1180px; margin: 0 auto; padding: 4px 16px 64px; }
-.hero { color: #fff; background: #0b0c10 center 45% / cover no-repeat; background-image: linear-gradient(to right, rgba(8, 8, 12, .82) 0%, rgba(8, 8, 12, .5) 38%, rgba(8, 8, 12, 0) 60%), url(header.jpg); }
-.hero-in { max-width: 1180px; margin: 0 auto; padding: 150px 16px 26px; min-height: 340px; display: flex; flex-direction: column; justify-content: flex-end; }
+main { max-width: 1180px; margin: 0 auto; padding: 0 16px 64px; }
+.hero { color: #fff; position: relative; background: #0b0c10 center 45% / cover no-repeat; background-image: linear-gradient(to right, rgba(8, 8, 12, .82) 0%, rgba(8, 8, 12, .5) 38%, rgba(8, 8, 12, 0) 60%), url(header.jpg); }
+/* the feather: a separate layer that overhangs the bottom edge by a pixel, so no seam shows at fractional heights */
+.hero::after { content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 122px; pointer-events: none; background: linear-gradient(to top, var(--bg) 0, var(--bg) 4px, transparent 100%); }
+.hero-in { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 150px 16px 120px; min-height: 440px; display: flex; flex-direction: column; justify-content: flex-end; }
 header h1 { font: 700 clamp(1.7rem, 4.5vw, 2.6rem)/1.15 Georgia, "Times New Roman", serif; margin: 0 0 8px; letter-spacing: -0.01em; text-shadow: 0 2px 14px rgba(0, 0, 0, .7); }
 header h1, header p { max-width: min(34rem, 52%); }
 header p { margin: 0; color: rgba(255, 255, 255, .86); text-shadow: 0 1px 8px rgba(0, 0, 0, .8); }
 header a { color: #ffd9a8; }
 @media (max-width: 760px) {
   .hero { background-image: none; }
-  .hero-in { padding-top: 0; min-height: 0; }
+  .hero::after { height: 72px; }
+  .hero-in { padding-top: 0; padding-bottom: 76px; min-height: 0; }
   .hero-in::before { content: ""; display: block; height: 200px; margin: 0 -16px 16px; background: url(header.jpg) 66% 50% / cover no-repeat; }
   header h1, header p { max-width: none; }
 }
 h2 { font: 700 1.25rem/1.2 Georgia, serif; margin: 0; display: inline; }
 details.sec { margin-top: 32px; }
-.top { margin-top: 28px; }
+.top { margin-top: 0; }
 .top h2 { display: block; margin-bottom: 10px; }
 .mini-wrap { display: inline-block; max-width: 100%; }
 .board.mini { width: auto; }
