@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tjsander.github.io/ptmoviepod-wishes/sitemap.xml

@@ -1,0 +1,2462 @@
+[
+ {
+  "ep": 1,
+  "movie": "The Turning Point (1977)",
+  "fmt": "Any (no disc release exists)",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 1,
+  "movie": "Control (2007)",
+  "fmt": "4K (no US Blu-ray)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 1,
+  "movie": "Panic Room (2002)",
+  "fmt": "Blu-ray",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 2,
+  "movie": "Day of the Dead (1985)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 2,
+  "movie": "The Tragedy of Macbeth (2021)",
+  "fmt": "4K",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 2,
+  "movie": "What About Bob? (1991)",
+  "fmt": "Shout Select",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 3,
+  "movie": "Adam's Rib (1949)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 3,
+  "movie": "Inherent Vice (2014)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 3,
+  "movie": "Near Dark (1987)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 4,
+  "movie": "Wristcutters: A Love Story (2006)",
+  "fmt": "Any format other than DVD",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 4,
+  "movie": "Little Children (2006)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 4,
+  "movie": "In the Bedroom (2001)",
+  "fmt": "Criterion Blu-ray or 4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 5,
+  "movie": "Eyes Wide Shut (1999)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 5,
+  "movie": "A Nightmare on Elm Street (1984)",
+  "fmt": "4K + Blu-ray from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 5,
+  "movie": "Face to Face (1976)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 6,
+  "movie": "Margot at the Wedding (2007)",
+  "fmt": "Blu-ray",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 6,
+  "movie": "Django Unchained (2012)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 6,
+  "movie": "The Hours (2002)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 7,
+  "movie": "Dogville (2003)",
+  "fmt": "Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 7,
+  "movie": "Mank (2020)",
+  "fmt": "Criterion",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 7,
+  "movie": "Strangers with Candy (complete series)",
+  "fmt": "Blu-ray, any label",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 8,
+  "movie": "The Crying Game (1992)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 8,
+  "movie": "Sleepaway Camp trilogy",
+  "fmt": "4K three-pack from Scream Factory",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 8,
+  "movie": "A Simple Plan (1998)",
+  "fmt": "Blu-ray",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 9,
+  "movie": "Killers of the Flower Moon (2023)",
+  "fmt": "4K, preferably Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 9,
+  "movie": "Bob & Carol & Ted & Alice (1969)",
+  "fmt": "Criterion DVD/Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 9,
+  "movie": "The Rock (1996)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 10,
+  "movie": "Night of the Juggler (1980)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 10,
+  "movie": "Junior (1994)",
+  "fmt": "Kino Lorber 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 10,
+  "movie": "Bringing Out the Dead (1999)",
+  "fmt": "Blu-ray or 4K (ideally 4K)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 11,
+  "movie": "The Simpsons (TV series, by season)",
+  "fmt": "Blu-ray",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 11,
+  "movie": "9 to 5 (1980)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 11,
+  "movie": "Two Women (1960)",
+  "fmt": "Any upgrade / restoration",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 12,
+  "movie": "X-Men '97 (TV series)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 12,
+  "movie": "No Country for Old Men (2007)",
+  "fmt": "4K, Paramount Presents",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 12,
+  "movie": "So Long at the Fair (1950)",
+  "fmt": "Any format",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 13,
+  "movie": "Outland (1981)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 13,
+  "movie": "The Royal Tenenbaums (2001)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 14,
+  "movie": "Mars Attacks! (1996)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 14,
+  "movie": "Spellbound (1945)",
+  "fmt": "Criterion re-release",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 14,
+  "movie": "Bo Burnham: Inside (2021)",
+  "fmt": "4K, preferably Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 15,
+  "movie": "Sunset Boulevard (1950)",
+  "fmt": "4K from Kino or Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 15,
+  "movie": "While You Were Sleeping (1995)",
+  "fmt": "Blu-ray",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 15,
+  "movie": "Don Hertzfeldt career collection",
+  "fmt": "Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 16,
+  "movie": "The Go-Between (1971)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wished together with May December"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 16,
+  "movie": "May December (2023)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wished together with The Go-Between"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 16,
+  "movie": "Perfume: The Story of a Murderer (2006)",
+  "fmt": "4K, US release",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 16,
+  "movie": "Kill Bill: The Whole Bloody Affair",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 17,
+  "movie": "The Jade Pussycat (1977)",
+  "fmt": "4K or Blu-ray",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 17,
+  "movie": "The Night Flier (1997)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 17,
+  "movie": "Crimson Tide (1995)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 18,
+  "movie": "Shoot to Kill (1988)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 18,
+  "movie": "Hard Rain (1998)",
+  "fmt": "4K, probably Kino Lorber",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 19,
+  "movie": "Lethal Weapon (first film or the collection)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 19,
+  "movie": "Proof of Life (2000)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 20,
+  "movie": "The River Wild (1994)",
+  "fmt": "4K, probably Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 20,
+  "movie": "The Assassination of Jesse James by the Coward Robert Ford (2007)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 20,
+  "movie": "Le Boucher (1970)",
+  "fmt": "Criterion Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 21,
+  "movie": "Dante's Peak (1997)",
+  "fmt": "Not captured (chant garbled)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 21,
+  "movie": "Volcano (1997)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 22,
+  "movie": "The Thin Red Line (1998)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 22,
+  "movie": "Cape Fear (1991)",
+  "fmt": "4K from Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 23,
+  "movie": "A History of Violence (2005)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 23,
+  "movie": "The Master (2012)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 24,
+  "movie": "Sorcerer (1977)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 24,
+  "movie": "11 Harrowhouse (1974)",
+  "fmt": "4K or Blu-ray",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 25,
+  "movie": "The Punisher (2004) director's cut",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 25,
+  "movie": "Anaconda (1997)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 26,
+  "movie": "The Mask (1994)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 26,
+  "movie": "I'm Thinking of Ending Things (2020)",
+  "fmt": "Criterion Blu-ray / 4K",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 26,
+  "movie": "The Raid (2011) and The Raid 2 (2014)",
+  "fmt": "4K Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 26,
+  "movie": "The Legend of Frenchie King (1971)",
+  "fmt": "Any format",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 27,
+  "movie": "The Game (1997)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 27,
+  "movie": "Sunshine (2007)",
+  "fmt": "4K, hopefully Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 28,
+  "movie": "Day of the Dead (1985)",
+  "fmt": "Arrow Video big box (4K)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 28,
+  "movie": "Ms. 45 (1981)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 29,
+  "movie": "Jerry Maguire (1996)",
+  "fmt": "Standalone 4K from Sony",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 29,
+  "movie": "Snow Angels (2007)",
+  "fmt": "4K from Kino",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 29,
+  "movie": "Solaris (2002)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 30,
+  "movie": "Hot Rod (2007)",
+  "fmt": "Arrow Video deluxe edition",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 30,
+  "movie": "That Thing You Do! (1996)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 31,
+  "movie": "Jingle All the Way (1996)",
+  "fmt": "4K from Kino Lorber, with slipcover",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 31,
+  "movie": "Legend (1985)",
+  "fmt": "4K Arrow limited edition",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 31,
+  "movie": "Predator (1987)",
+  "fmt": "4K big box limited edition from Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 32,
+  "movie": "Fracture (2007)",
+  "fmt": "Kino Lorber 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 32,
+  "movie": "Bedazzled (2000)",
+  "fmt": "4K, or an in-print Blu-ray",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 33,
+  "movie": "Bowfinger (1999)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 33,
+  "movie": "Office Space (1999)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 34,
+  "movie": "Executive Decision (1996)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 34,
+  "movie": "The Aviator (2004)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 35,
+  "movie": "The Umbrellas of Cherbourg (1964)",
+  "fmt": "4K from Criterion or BFI",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 35,
+  "movie": "Edward Scissorhands (1990)",
+  "fmt": "4K from Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 36,
+  "movie": "Jade (1995)",
+  "fmt": "Blu-ray (or 4K)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 36,
+  "movie": "The Negotiator (1998)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "First said Hard Rain (Kino Lorber 4K) again, then switched"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 37,
+  "movie": "There Will Be Blood (2007)",
+  "fmt": "Criterion release",
+  "who": "Eric Thompson",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 37,
+  "movie": "Killing Them Softly (2012)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 37,
+  "movie": "The French Connection (1971)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Pivoted from There Will Be Blood"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 38,
+  "movie": "The Punisher (1989)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 38,
+  "movie": "The Fly (1986)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 39,
+  "movie": "Passenger 57 (1992)",
+  "fmt": "4K Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 39,
+  "movie": "Her (2013)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 40,
+  "movie": "The Straight Story (1999)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 40,
+  "movie": "Spellbound (1945)",
+  "fmt": "Criterion re-release on Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 40,
+  "movie": "When Harry Met Sally... (1989)",
+  "fmt": "4K from Shout Factory",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 41,
+  "movie": "The Girl with the Dragon Tattoo (2011)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 41,
+  "movie": "The American (2010)",
+  "fmt": "4K, hopefully Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 41,
+  "movie": "What a Way to Go! (1964)",
+  "fmt": "Not stated",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 42,
+  "movie": "Grindhouse (2007)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 42,
+  "movie": "Django Unchained (2012)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 43,
+  "movie": "Prom Night (1980)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 43,
+  "movie": "Over the Garden Wall (2014 miniseries)",
+  "fmt": "4K or Blu-ray",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 44,
+  "movie": "The Social Network (2010)",
+  "fmt": "4K, non-steelbook edition",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 44,
+  "movie": "Fail Safe (1964)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 45,
+  "movie": "The Wicker Man (2006)",
+  "fmt": "4K from Arrow or Second Sight, \"biggest possible\"",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 45,
+  "movie": "The Indian Runner (1991)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 46,
+  "movie": "Porgy and Bess (1959)",
+  "fmt": "Blu-ray",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 46,
+  "movie": "Romeo + Juliet (1996)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 46,
+  "movie": "Pink Floyd – The Wall (1982)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 47,
+  "movie": "Godzilla Heisei-era films (box set)",
+  "fmt": "Criterion box set",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 47,
+  "movie": "Visitor Q (2001)",
+  "fmt": "Second Sight release",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 47,
+  "movie": "Original Heisei-era poster art included in that Godzilla set",
+  "fmt": "Criterion box set",
+  "who": "Joel Jensen",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 47,
+  "movie": "The Host (2006)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 48,
+  "movie": "Austin Powers trilogy",
+  "fmt": "4K box set",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 48,
+  "movie": "The Great Outdoors (1988)",
+  "fmt": "Kino Lorber 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 49,
+  "movie": "The 13th Warrior (1999)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 49,
+  "movie": "A24 back catalog (e.g. Lady Bird, Moonlight, Hereditary)",
+  "fmt": "4K from A24",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 50,
+  "movie": "Assassins (1995)",
+  "fmt": "4K from Arrow or Kino",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 50,
+  "movie": "Miami Vice (2006)",
+  "fmt": "4K from Arrow",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 51,
+  "movie": "Fantastic Planet (1973)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 51,
+  "movie": "Steel Dawn (1987)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 52,
+  "movie": "Manhunter (1986)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 52,
+  "movie": "Dog Day Afternoon (1975)",
+  "fmt": "4K from a boutique label",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 53,
+  "movie": "Knowing (2009)",
+  "fmt": "4K Arrow Video big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 53,
+  "movie": "F1 (2025)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 54,
+  "movie": "Teenage Mutant Ninja Turtles II: The Secret of the Ooze (1991)",
+  "fmt": "4K",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 54,
+  "movie": "Almost Heroes (1998)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 54,
+  "movie": "Beverly Hills Ninja (1997)",
+  "fmt": "4K from Kino",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 55,
+  "movie": "The Insider (1999)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 55,
+  "movie": "Kiss Kiss Bang Bang (2005)",
+  "fmt": "4K from Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 56,
+  "movie": "Dragonheart (1996)",
+  "fmt": "Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 56,
+  "movie": "Behind Enemy Lines (2001)",
+  "fmt": "Kino Lorber 4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 57,
+  "movie": "Ticket of No Return (1979)",
+  "fmt": "Not stated",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 57,
+  "movie": "Margaret (2011)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 57,
+  "movie": "The Time Masters (1982)",
+  "fmt": "4K from Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 58,
+  "movie": "Dave (1993)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 58,
+  "movie": "Commando (1985)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 59,
+  "movie": "The Set-Up (1949)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 59,
+  "movie": "Without Warning (1980)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 60,
+  "movie": "Cast Away (2000)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "First said Road to Perdition (4K) but believed he had already wished for it, so switched"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 60,
+  "movie": "Invaders from Mars (1986)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 61,
+  "movie": "Judge Dredd (1995)",
+  "fmt": "4K Arrow big box",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 61,
+  "movie": "Tango & Cash (1989)",
+  "fmt": "Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 62,
+  "movie": "Big Daddy (1999)",
+  "fmt": "4K",
+  "who": "Drew Hanks",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 62,
+  "movie": "Little Nicky (2000)",
+  "fmt": "4K from Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 62,
+  "movie": "Anger Management (2003)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 63,
+  "movie": "The Beach (2000)",
+  "fmt": "4K from Kino Lorber",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 63,
+  "movie": "Shattered (1991)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 64,
+  "movie": "Bedknobs and Broomsticks (1971)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 64,
+  "movie": "Manhunter (1986)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 65,
+  "movie": "Pontypool (2008)",
+  "fmt": "4K",
+  "who": "Ryan Verrill",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 65,
+  "movie": "You've Got Mail (1998)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 65,
+  "movie": "Dead Bang (1989)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 65,
+  "movie": "Something Wicked This Way Comes (1983)",
+  "fmt": "4K or any new release",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 66,
+  "movie": "Practical Magic (1998)",
+  "fmt": "4K",
+  "who": "Wendy Willming",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 66,
+  "movie": "The Avengers (1998)",
+  "fmt": "Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 66,
+  "movie": "Only Lovers Left Alive (2013)",
+  "fmt": "4K from Scream Factory",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 66,
+  "movie": "The Love Witch (2016)",
+  "fmt": "Not stated",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 67,
+  "movie": "Josie and the Pussycats (2001)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 67,
+  "movie": "The Twilight Saga",
+  "fmt": "4K reissue",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 68,
+  "movie": "Medicine Man (1992)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 68,
+  "movie": "Die Hard with a Vengeance (1995)",
+  "fmt": "Not stated",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 68,
+  "movie": "Rollerball (2002)",
+  "fmt": "Not stated (Arrow mentioned)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Added as a second wish"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 69,
+  "movie": "The King of Comedy (1982)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 69,
+  "movie": "The Thing (1982)",
+  "fmt": "4K Arrow big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 70,
+  "movie": "G.I. Joe: Resolute (2009)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 70,
+  "movie": "The American President (1995)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 71,
+  "movie": "Full Metal Jacket (1987)",
+  "fmt": "4K from Criterion",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 71,
+  "movie": "The Idiots (1998)",
+  "fmt": "4K",
+  "who": "Bobby",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 71,
+  "movie": "Lolita (1962)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 71,
+  "movie": "Spartacus (1960)",
+  "fmt": "Criterion upgrade",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Added on the spot after the chant"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 72,
+  "movie": "Deep Rising (1998)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 72,
+  "movie": "Troy (2004)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 74,
+  "movie": "Ferrari (2023)",
+  "fmt": "4K, US release",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 74,
+  "movie": "Phone Booth (2002)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 75,
+  "movie": "The Strange Thing About the Johnsons (2011 short)",
+  "fmt": "Blu-ray",
+  "who": "Ryan Verrill",
+  "guest": true,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 75,
+  "movie": "Titane (2021)",
+  "fmt": "4K, any label",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 75,
+  "movie": "Windtalkers (2002)",
+  "fmt": "4K from Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 76,
+  "movie": "Holes (2003)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 76,
+  "movie": "Above the Law (1988)",
+  "fmt": "Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 77,
+  "movie": "Ace Ventura: When Nature Calls (1995)",
+  "fmt": "4K from Kino",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 77,
+  "movie": "The Mexican (2001)",
+  "fmt": "4K from Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 77,
+  "movie": "Moulin Rouge! (2001)",
+  "fmt": "4K",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 78,
+  "movie": "Volcano (1997)",
+  "fmt": "4K from Kino Lorber",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 78,
+  "movie": "GoldenEye (1995)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 79,
+  "movie": "Castle Freak (1995)",
+  "fmt": "Arrow Video big box",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 79,
+  "movie": "The River Wild (1994)",
+  "fmt": "4K from Kino Lorber",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 80,
+  "movie": "Happy Feet (2006)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Joked afterwards about swapping it for The Omen on 4K"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 80,
+  "movie": "16 Blocks (2006)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 81,
+  "movie": "The Land Before Time (1988)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 81,
+  "movie": "The Sword in the Stone (1963)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 82,
+  "movie": "Them! (1954)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 82,
+  "movie": "Blade II (2002)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 83,
+  "movie": "Murder at 1600 (1997)",
+  "fmt": "4K from Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 83,
+  "movie": "Executive Decision (1996)",
+  "fmt": "4K from Kino",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 85,
+  "movie": "25th Hour (2002)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 85,
+  "movie": "The Land That Time Forgot (1974)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 86,
+  "movie": "Entrapment (1999)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 86,
+  "movie": "Something Wild (1986)",
+  "fmt": "4K from Criterion",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 87,
+  "movie": "Under the Skin (2013)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 87,
+  "movie": "The Last of the Mohicans (1992)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 88,
+  "movie": "Grindhouse (2007)",
+  "fmt": "Arrow big box",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 88,
+  "movie": "Killer Joe (2011)",
+  "fmt": "4K from Arrow",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 89,
+  "movie": "Alien 3 (1992)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 89,
+  "movie": "Little Children (2006)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 90,
+  "movie": "Saving Silverman (2001)",
+  "fmt": "Arrow release",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 90,
+  "movie": "The Whole Nine Yards (2000)",
+  "fmt": "4K from Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "First said Cop Land (Arrow 4K), then changed his wish"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 91,
+  "movie": "The Thomas Crown Affair (1999)",
+  "fmt": "Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 91,
+  "movie": "Birdman (2014)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 84,
+  "movie": "Planet of the Apes (2001)",
+  "fmt": "4K",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Joked afterwards about swapping it for Charlie and the Chocolate Factory on 4K"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 84,
+  "movie": "Burn After Reading (2008)",
+  "fmt": "Not stated",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": true
+ },
+ {
+  "ep": 84,
+  "movie": "Chocolat (2000)",
+  "fmt": "4K",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wished together with The Taste of Things"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 84,
+  "movie": "The Taste of Things (2023)",
+  "fmt": "4K",
+  "who": "Kimberly",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wished together with Chocolat"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "In a Lonely Place (1950)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Five Easy Pieces (1970)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Macbeth (1971)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Honeymoon in Vegas (1992)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Something's Gotta Give (2003)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set); no Blu-ray exists",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Moneyball (2011)",
+  "fmt": "4K (imagined Columbia Classics Vol. 6 box set)",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Noises Off (1992)",
+  "fmt": "Blu-ray (4K a bonus)",
+  "who": "Brian Saur",
+  "guest": true,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Go for Sisters (2013)",
+  "fmt": "Blu-ray (4K a bonus)",
+  "who": "Brian Saur",
+  "guest": true,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "American Splendor (2003)",
+  "fmt": "Blu-ray (4K a bonus)",
+  "who": "Brian Saur",
+  "guest": true,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Hands on a Hard Body (1997)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Brian Saur",
+  "guest": true,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Zero Effect (1998)",
+  "fmt": "Blu-ray and/or 4K",
+  "who": "Brian Saur",
+  "guest": true,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Cool Runnings (1993)",
+  "fmt": "Not stated (back in print)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special, one of three Disney vault titles wished together"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "George of the Jungle (1997)",
+  "fmt": "Not stated (back in print)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special, one of three Disney vault titles wished together"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Shipwrecked (1990)",
+  "fmt": "Not stated (back in print)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special, one of three Disney vault titles wished together"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Say Anything... (1989)",
+  "fmt": "Not stated (Blu-ray is out of print)",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Train Dreams (2025)",
+  "fmt": "Blu-ray or 4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "The Shrine of Abominations (stop-motion film by the artist Skinner)",
+  "fmt": "Blu-ray",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ },
+ {
+  "ep": 73,
+  "movie": "Django Unchained (2012)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": true,
+  "notes": [
+   "Wish-list special"
+  ],
+  "confirmed": true
+ }
+]

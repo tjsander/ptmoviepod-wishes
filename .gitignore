@@ -1,0 +1,10 @@
+# Podcast audio, captions and derived clips: local working material, not part of the site
+audio/
+transcripts/
+confirm/
+worst/
+
+# Local scratch
+.shots/
+__pycache__/
+*.pyc
