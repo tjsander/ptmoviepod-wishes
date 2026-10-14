@@ -148,11 +148,6 @@ footer p { margin: 0 0 8px; }
   <p class="listen">Listen: <a href="https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773" target="_blank" rel="noopener">Apple Podcasts</a> · <a href="https://www.youtube.com/@ptmoviepod" target="_blank" rel="noopener">YouTube</a> · <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">all links</a> · <a href="https://boxd.it/lR6On" target="_blank" rel="noopener">Letterboxd</a></p>
 </section>
 
-<section aria-labelledby="h-board">
-  <h2 id="h-board">Leader board</h2>
-  __LEADERBOARD__
-</section>
-
 <section aria-labelledby="h-wishes">
   <h2 id="h-wishes">All wishes</h2>
   <div class="controls">
@@ -173,6 +168,11 @@ footer p { margin: 0 0 8px; }
       <tbody id="rows">__ROWS__</tbody>
     </table>
   </div>
+</section>
+
+<section aria-labelledby="h-board">
+  <h2 id="h-board">Leader board</h2>
+  __LEADERBOARD__
 </section>
 
 <section aria-labelledby="h-repeats">
