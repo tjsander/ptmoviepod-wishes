@@ -98,9 +98,19 @@ PAGE = r"""<!doctype html>
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--accent); text-underline-offset: 2px; }
-main { max-width: 1180px; margin: 0 auto; padding: 32px 16px 64px; }
-header h1 { font: 700 clamp(1.7rem, 4.5vw, 2.6rem)/1.15 Georgia, "Times New Roman", serif; margin: 0 0 6px; letter-spacing: -0.01em; }
-header p { margin: 0; color: var(--mute); }
+main { max-width: 1180px; margin: 0 auto; padding: 4px 16px 64px; }
+.hero { color: #fff; background: #0b0c10 center 45% / cover no-repeat; background-image: linear-gradient(to right, rgba(8, 8, 12, .82) 0%, rgba(8, 8, 12, .5) 38%, rgba(8, 8, 12, 0) 60%), url(header.jpg); }
+.hero-in { max-width: 1180px; margin: 0 auto; padding: 150px 16px 26px; min-height: 340px; display: flex; flex-direction: column; justify-content: flex-end; }
+header h1 { font: 700 clamp(1.7rem, 4.5vw, 2.6rem)/1.15 Georgia, "Times New Roman", serif; margin: 0 0 8px; letter-spacing: -0.01em; text-shadow: 0 2px 14px rgba(0, 0, 0, .7); }
+header h1, header p { max-width: min(34rem, 52%); }
+header p { margin: 0; color: rgba(255, 255, 255, .86); text-shadow: 0 1px 8px rgba(0, 0, 0, .8); }
+header a { color: #ffd9a8; }
+@media (max-width: 760px) {
+  .hero { background-image: none; }
+  .hero-in { padding-top: 0; min-height: 0; }
+  .hero-in::before { content: ""; display: block; height: 200px; margin: 0 -16px 16px; background: url(header.jpg) 66% 50% / cover no-repeat; }
+  header h1, header p { max-width: none; }
+}
 h2 { font: 700 1.25rem/1.2 Georgia, serif; margin: 0; display: inline; }
 details.sec { margin-top: 32px; }
 .top { margin-top: 28px; }
@@ -165,11 +175,13 @@ footer p { margin: 0 0 8px; }
 </style>
 </head>
 <body>
-<main>
-<header>
+<header class="hero">
+<div class="hero-in">
   <h1>__TITLE__</h1>
   <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, the show about physical media, film preservation and why owning movies matters, hosted by Kurt and Sam, and whether each wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
+</div>
 </header>
+<main>
 
 <section class="top" aria-labelledby="h-mini">
   <h2 id="h-mini">Leaderboard</h2>
@@ -215,6 +227,7 @@ footer p { margin: 0 0 8px; }
   <p>Film titles link to Letterboxd; hover a title for its poster. Outcomes link to the release page on Blu-ray.com where one was found. Episode links open YouTube at the wish segment.</p>
   <p>Wishes were collected from YouTube auto-captions, and who made each wish is inferred from the conversation, so some attributions may be wrong. New episodes are transcribed automatically and marked "unconfirmed" until checked by ear. "No" means no US release in the wished format was found on Blu-ray.com.</p>
   <p>Listen to and follow the show: <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">linktr.ee/ptmoviepod</a>.</p>
+  <p>Header photo from <a href="https://www.pexels.com/photo/silhouette-of-a-person-standing-in-grass-and-reaching-for-a-star-12506594/" target="_blank" rel="noopener">Pexels</a>.</p>
   <p>Made by <a href="https://github.com/tjsander" target="_blank" rel="noopener">Travis J. Sanders</a>. An unofficial fan project.</p>
   <p class="tmdb">__TMDB_LOGO__This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </footer>
