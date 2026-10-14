@@ -47,6 +47,23 @@ def leaderboard():
     return "\n".join(out)
 
 
+def mini_leaderboard():
+    """Kurt and Sam only: wishes made, repeat wishes and granted, taken from the full table in wishes.md."""
+    start = next(i for i, line in enumerate(md) if line.strip().lower().startswith("## leader"))
+    end = next(i for i, line in enumerate(md) if line.startswith("| Movie | Format wished for"))
+    rows = [[c.strip() for c in line.strip().strip("|").split("|")] for line in md[start + 1:end] if line.startswith("|")]
+    head = rows[0]
+    cols = [head.index(n) for n in ("Kurt", "Sam") if n in head]
+    want = [("Wishes made", "Wishes made"), ("Repeat wishes", "Repeat wishes 🔔"), ("Granted", "Granted")]
+    out = ['<table class="board mini"><thead><tr><th></th>' + "".join(f"<th>{inline(head[c])}</th>" for c in cols) + "</tr></thead><tbody>"]
+    for prefix, label in want:
+        row = next((r for r in rows[1:] if r[0].startswith(prefix)), None)
+        if row:
+            out.append(f'<tr><th scope="row">{label}</th>' + "".join(f"<td>{inline(row[c])}</td>" for c in cols) + "</tr>")
+    out.append("</tbody></table>")
+    return "\n".join(out)
+
+
 title = next((line[2:].strip() for line in md if line.startswith("# ")), "Wishes into the Physical Media Universe")
 payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
@@ -86,6 +103,13 @@ header h1 { font: 700 clamp(1.7rem, 4.5vw, 2.6rem)/1.15 Georgia, "Times New Roma
 header p { margin: 0; color: var(--mute); }
 h2 { font: 700 1.25rem/1.2 Georgia, serif; margin: 0; display: inline; }
 details.sec { margin-top: 32px; }
+.top { margin-top: 28px; }
+.top h2 { display: block; margin-bottom: 10px; }
+.mini-wrap { display: inline-block; max-width: 100%; }
+.board.mini { width: auto; }
+.board.mini th[scope=row] { min-width: 0; padding-right: 28px; }
+.board.mini td { min-width: 120px; font-size: 1.05rem; font-weight: 600; }
+.more { margin: 8px 0 0; font-size: .88rem; }
 details.sec > summary { cursor: pointer; padding: 6px 0 10px; list-style-position: outside; margin-left: 1.1em; color: var(--mute); }
 details.sec > summary h2 { color: var(--ink); }
 details.sec > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -147,6 +171,12 @@ footer p { margin: 0 0 8px; }
   <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, the show about physical media, film preservation and why owning movies matters, hosted by Kurt and Sam, and whether each wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
 </header>
 
+<section class="top" aria-labelledby="h-mini">
+  <h2 id="h-mini">Leaderboard</h2>
+  <div class="scroll mini-wrap">__MINI__</div>
+  <p class="more"><a href="#sec-board" id="tostats">All stats ↓</a></p>
+</section>
+
 <details class="sec" id="sec-wishes" open>
   <summary><h2 id="h-wishes">All wishes</h2></summary>
   <div class="controls">
@@ -170,19 +200,8 @@ footer p { margin: 0 0 8px; }
 </details>
 
 <details class="sec" id="sec-board" open>
-  <summary><h2 id="h-board">Leader board</h2></summary>
+  <summary><h2 id="h-board">Stats</h2></summary>
   __LEADERBOARD__
-</details>
-
-<details class="sec" id="sec-repeats" open>
-  <summary><h2 id="h-repeats">Repeat wishes 🔔</h2></summary>
-  <p class="count">Shame! Each of these had already been wished for on the show, so they are left off the leader board.</p>
-  <div class="scroll">
-    <table id="repeats" class="cards">
-      <thead><tr><th>Film</th><th>Repeated by</th><th>First wished by</th><th>Came true?</th></tr></thead>
-      <tbody id="reprows">__REPROWS__</tbody>
-    </table>
-  </div>
 </details>
 
 <details class="sec about" id="sec-about" open>
@@ -222,6 +241,7 @@ footer p { margin: 0 0 8px; }
       try { localStorage.setItem('ptw-collapsed', JSON.stringify(now)); } catch (e) {}
     });
   });
+  $('tostats').addEventListener('click', function () { $('sec-board').open = true; });
   // "/" jumps to the search box
   document.addEventListener('keydown', function (e) {
     if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
@@ -345,13 +365,6 @@ footer p { margin: 0 0 8px; }
     var ep = el('td', { 'data-l': 'Episode' }, [epLink(r), el('span', { class: 'sub', text: r.epTitle + ' · ' + fmtDate(r.date) })]);
     return el('tr', {}, [movieCell(r), el('td', { 'data-l': 'Wished for', text: r.fmt }), outcomeCell(r, true), ep, el('td', { 'data-l': 'Wished by' }, [r.who + (r.guest ? ' (guest)' : '')].concat(r.confirmed === false ? [el('span', { class: 'sub', text: 'unconfirmed' })] : []))]);
   }
-  function repNode(r) {
-    var again = el('td', { 'data-l': 'Repeated by' }, [r.who + ' · ', epLink(r), el('span', { class: 'sub', text: fmtDate(r.date) + ' · asked for: ' + r.fmt })]);
-    var first = el('td', { 'data-l': 'First wished by' }, [r.first.who + ' · ', epLink(r.first), el('span', { class: 'sub', text: fmtDate(r.first.date) + ' · asked for: ' + r.first.fmt })]);
-    return el('tr', {}, [movieCell(r), again, first, outcomeCell(r)]);
-  }
-  $('reprows').textContent = '';
-  reps.forEach(function (r) { $('reprows').appendChild(repNode(r)); });
   function sortVal(r, k) {
     if (k === 'status') return ORDER[r.status];
     if (k === 'movie') return r.movie.replace(/^(the|a|an) /i, '').toLowerCase();
@@ -453,14 +466,7 @@ def row_html(r):
             f'<td data-l="Wished by">{who_text(r)}</td></tr>')
 
 
-def repeat_html(r):
-    f = r["first"]
-    return (f'<tr>{film_cell(r)}<td data-l="Repeated by">{who_text(r)} · <a class="ep" href="{yt(r)}">{r["ep"]}</a><span class="sub">{pretty(r["date"])} · asked for: {esc(r["fmt"])}</span></td>'
-            f'<td data-l="First wished by">{esc(f["who"])} · <a class="ep" href="{yt(f)}">{f["ep"]}</a><span class="sub">{pretty(f["date"])} · asked for: {esc(f["fmt"])}</span></td>{outcome_cell(r)}</tr>')
-
-
 main_rows = [r for r in data["rows"] if not r["repeat"]]
-repeat_rows = [r for r in data["rows"] if r["repeat"] and r.get("first")]
 n_yes = sum(r["status"] == "yes" for r in main_rows)
 desc = (f"Every 4K and Blu-ray release wished for on Physical Therapy: A Movie Podcast, the physical media podcast hosted by Kurt and Sam: "
         f"{len(main_rows)} wishes, {n_yes} granted so far, with links to each release.")
@@ -473,8 +479,8 @@ jsonld = json.dumps({"@context": "https://schema.org", "@graph": [
      "sameAs": ["https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773", "https://www.youtube.com/@ptmoviepod", "https://boxd.it/lR6On"]}]},
     ensure_ascii=False).replace("</", "<\\/")
 
-PAGE = (PAGE.replace("__ROWS__", "".join(row_html(r) for r in data["rows"])).replace("__REPROWS__", "".join(repeat_html(r) for r in repeat_rows))
-        .replace("__DESC__", esc(desc)).replace("__URL__", SITE_URL).replace("__JSONLD__", jsonld).replace("__CHECKED__", pretty(data["checked"]))
+PAGE = (PAGE.replace("__ROWS__", "".join(row_html(r) for r in data["rows"]))
+        .replace("__MINI__", mini_leaderboard()).replace("__DESC__", esc(desc)).replace("__URL__", SITE_URL).replace("__JSONLD__", jsonld).replace("__CHECKED__", pretty(data["checked"]))
         .replace("__NWISHES__", str(len(main_rows))).replace("__NEPS__", str(len({r["ep"] for r in data["rows"]}))).replace("__NYES__", str(n_yes)))
 (ROOT / "docs" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
 (ROOT / "docs" / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

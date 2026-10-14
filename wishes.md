@@ -24,7 +24,7 @@ Release status checked 13 Oct 2026.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 2 granted: Night of the Juggler and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
 - **Everyone:** 35 of 230 wishes have come true, counting guests.
-- **Repeat wishes:** wishing for something already wished for on the show earns a place in the table of shame below, not on the leader board. 10 so far.
+- **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 10 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
 
 | Movie | Format wished for | Format came true? | Wished-for publisher? | Ep. | Episode | Date | Wished by | Notes |

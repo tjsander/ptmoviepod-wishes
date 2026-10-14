@@ -176,7 +176,7 @@ def leaderboard(R):
         bullets.append(f"- **Most-wished film:** {short_title(movie)}, wished {['', 'once', 'twice', 'three times', 'four times', 'five times'][min(k, 5)]} by {' and '.join(whos)}"
                        + (" and still not on 4K." if st["status"] == "no" and "4K" in st["fmt"] else "."))
     bullets.append(f"- **Everyone:** {sum(r['status'] == 'yes' for r in counted)} of {len(counted)} wishes have come true, counting guests.")
-    bullets.append(f"- **Repeat wishes:** wishing for something already wished for on the show earns a place in the table of shame below, not on the leader board. {len(reps)} so far.")
+    bullets.append(f"- **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. {len(reps)} so far.")
     bullets.append("- **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.")
     unconfirmed = [r for r in R if not r.get("confirmed", True)]
     if unconfirmed:
