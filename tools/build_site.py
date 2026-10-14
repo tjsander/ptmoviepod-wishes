@@ -143,15 +143,8 @@ footer p { margin: 0 0 8px; }
 <main>
 <header>
   <h1>__TITLE__</h1>
-  <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, and whether the wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
+  <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, the show about physical media, film preservation and why owning movies matters, hosted by Kurt and Sam, and whether each wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
 </header>
-
-<details class="sec about" id="sec-about" open>
-  <summary><h2 id="h-about">About the show</h2></summary>
-  <p><strong>Physical Therapy: A Movie Podcast</strong> (PT Movie Pod) is, in the show's own words, &ldquo;a movie podcast dedicated to physical media, film preservation and why owning movies matters.&rdquo; Hosts Kurt and Sam, with producer Kimberly and regular guests, talk through new 4K UHD and Blu-ray releases, boutique labels such as Arrow Video, Criterion, Kino Lorber and Shout Factory, and the films on their shelves.</p>
-  <p>Every episode ends with the hosts &ldquo;putting wishes out into the physical media universe&rdquo;: each names a film they want released on a format it isn't on yet. This page tracks all __NWISHES__ wishes across __NEPS__ episodes, and the __NYES__ that have come true so far.</p>
-  <p class="listen">Listen: <a href="https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773" target="_blank" rel="noopener">Apple Podcasts</a> · <a href="https://www.youtube.com/@ptmoviepod" target="_blank" rel="noopener">YouTube</a> · <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">all links</a> · <a href="https://boxd.it/lR6On" target="_blank" rel="noopener">Letterboxd</a></p>
-</details>
 
 <details class="sec" id="sec-wishes" open>
   <summary><h2 id="h-wishes">All wishes</h2></summary>
@@ -189,6 +182,13 @@ footer p { margin: 0 0 8px; }
       <tbody id="reprows">__REPROWS__</tbody>
     </table>
   </div>
+</details>
+
+<details class="sec about" id="sec-about" open>
+  <summary><h2 id="h-about">About the show</h2></summary>
+  <p><strong>Physical Therapy: A Movie Podcast</strong> (PT Movie Pod) is, in the show's own words, &ldquo;a movie podcast dedicated to physical media, film preservation and why owning movies matters.&rdquo; Hosts Kurt and Sam, with producer Kimberly and regular guests, talk through new 4K UHD and Blu-ray releases, boutique labels such as Arrow Video, Criterion, Kino Lorber and Shout Factory, and the films on their shelves.</p>
+  <p>Every episode ends with the hosts &ldquo;putting wishes out into the physical media universe&rdquo;: each names a film they want released on a format it isn't on yet. This page tracks all __NWISHES__ wishes across __NEPS__ episodes, and the __NYES__ that have come true so far.</p>
+  <p class="listen">Listen: <a href="https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773" target="_blank" rel="noopener">Apple Podcasts</a> · <a href="https://www.youtube.com/@ptmoviepod" target="_blank" rel="noopener">YouTube</a> · <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">all links</a> · <a href="https://boxd.it/lR6On" target="_blank" rel="noopener">Letterboxd</a></p>
 </details>
 
 <footer>
