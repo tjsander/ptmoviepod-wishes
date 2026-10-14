@@ -147,7 +147,7 @@ thead th { background: var(--head); font-size: .8rem; text-transform: uppercase;
 #poster img { display: block; width: 100%; aspect-ratio: 2 / 3; object-fit: cover; }
 .egg { cursor: default; }
 #egg { position: fixed; z-index: 11; width: 260px; pointer-events: none; display: none; border-radius: 8px; overflow: hidden; background: var(--head); box-shadow: 0 10px 30px rgba(0, 0, 0, .35); border: 1px solid var(--line); }
-#egg img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; }
+#egg img { display: block; width: 100%; min-height: 110px; }
 #egg span { display: block; padding: 3px 8px; font-size: .7rem; color: var(--mute); text-align: right; }
 .about p { margin: 0 0 10px; max-width: 78ch; }
 .listen a { font-weight: 600; }
@@ -315,8 +315,8 @@ footer p { margin: 0 0 8px; }
 
   // easter egg: a GIF on the "Longest wait" row of the leader board
   var egg = $('egg'), eggImg = egg.querySelector('img');
-  function showEgg(th, ev) {
-    if (!eggImg.getAttribute('src')) eggImg.src = 'https://media.giphy.com/media/FoH28ucxZFJZu/giphy.gif';
+  function showEgg(th, ev, url) {
+    if (eggImg.getAttribute('data-u') !== url) { eggImg.removeAttribute('src'); eggImg.setAttribute('data-u', url); eggImg.src = url; }
     egg.style.display = 'block';
     var w = 260, h = 285, r = th.getBoundingClientRect();
     var x = ev && ev.clientX != null && ev.type !== 'focus' ? ev.clientX + 18 : r.left + 24;
@@ -326,13 +326,16 @@ footer p { margin: 0 0 8px; }
     egg.style.left = Math.max(8, x) + 'px'; egg.style.top = y + 'px';
   }
   function hideEgg() { egg.style.display = 'none'; }
-  [].forEach.call(document.querySelectorAll('.egg'), function (th) {
-    th.addEventListener('mouseenter', function (e) { showEgg(th, e); });
-    th.addEventListener('mousemove', function (e) { showEgg(th, e); });
-    th.addEventListener('mouseleave', hideEgg);
-    th.addEventListener('focus', function (e) { showEgg(th, e); });
-    th.addEventListener('blur', hideEgg);
-  });
+  function bindEgg(node, url) {
+    node.addEventListener('mouseenter', function (e) { showEgg(node, e, url); });
+    node.addEventListener('mousemove', function (e) { showEgg(node, e, url); });
+    node.addEventListener('mouseleave', hideEgg);
+    node.addEventListener('focus', function (e) { showEgg(node, e, url); });
+    node.addEventListener('blur', hideEgg);
+  }
+  [].forEach.call(document.querySelectorAll('.egg'), function (th) { bindEgg(th, 'https://media.giphy.com/media/FoH28ucxZFJZu/giphy.gif'); });
+  var shameChip = document.querySelector('.chip[data-s=repeat]');
+  if (shameChip) bindEgg(shameChip, 'https://media.giphy.com/media/W81qSImkIxkNq/giphy.gif');
   window.addEventListener('scroll', hideEgg, { passive: true });
 
   function movieCell(r) {
