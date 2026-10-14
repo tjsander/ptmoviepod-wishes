@@ -230,7 +230,7 @@ footer p { margin: 0 0 8px; }
   <p>Film titles link to Letterboxd; hover a title for its poster. Outcomes link to the release page on Blu-ray.com where one was found. Episode links open YouTube at the wish segment.</p>
   <p>Wishes were collected from YouTube auto-captions, and who made each wish is inferred from the conversation, so some attributions may be wrong. New episodes are transcribed automatically and marked "unconfirmed" until checked by ear. "No" means no US release in the wished format was found on Blu-ray.com.</p>
   <p>Listen to and follow the show: <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">linktr.ee/ptmoviepod</a>.</p>
-  <p>Header photo from <a href="https://www.pexels.com/photo/silhouette-of-a-person-standing-in-grass-and-reaching-for-a-star-12506594/" target="_blank" rel="noopener">Pexels</a>.</p>
+  <p>Header photo by <a href="https://www.aspenbirchpnw.com/links/" target="_blank" rel="noopener">Kathrine Birch</a> (<a href="https://www.pexels.com/@kathrinepnw/" target="_blank" rel="noopener">@kathrinepnw</a>), from <a href="https://www.pexels.com/photo/silhouette-of-a-person-standing-in-grass-and-reaching-for-a-star-12506594/" target="_blank" rel="noopener">Pexels</a>.</p>
   <p>Made by <a href="https://github.com/tjsander" target="_blank" rel="noopener">Travis J. Sanders</a>. An unofficial fan project.</p>
   <p class="tmdb">__TMDB_LOGO__This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
 </footer>
