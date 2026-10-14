@@ -84,7 +84,12 @@ a { color: var(--accent); text-underline-offset: 2px; }
 main { max-width: 1180px; margin: 0 auto; padding: 32px 16px 64px; }
 header h1 { font: 700 clamp(1.7rem, 4.5vw, 2.6rem)/1.15 Georgia, "Times New Roman", serif; margin: 0 0 6px; letter-spacing: -0.01em; }
 header p { margin: 0; color: var(--mute); }
-h2 { font: 700 1.25rem/1.2 Georgia, serif; margin: 40px 0 12px; }
+h2 { font: 700 1.25rem/1.2 Georgia, serif; margin: 0; display: inline; }
+details.sec { margin-top: 32px; }
+details.sec > summary { cursor: pointer; padding: 6px 0 10px; list-style-position: outside; margin-left: 1.1em; color: var(--mute); }
+details.sec > summary h2 { color: var(--ink); }
+details.sec > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+details.sec:not([open]) { border-bottom: 1px solid var(--line); }
 .scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
 table { border-collapse: collapse; width: 100%; }
 th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--line); }
@@ -141,17 +146,17 @@ footer p { margin: 0 0 8px; }
   <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, and whether the wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
 </header>
 
-<section class="about" aria-labelledby="h-about">
-  <h2 id="h-about">About the show</h2>
+<details class="sec about" id="sec-about" open>
+  <summary><h2 id="h-about">About the show</h2></summary>
   <p><strong>Physical Therapy: A Movie Podcast</strong> (PT Movie Pod) is, in the show's own words, &ldquo;a movie podcast dedicated to physical media, film preservation and why owning movies matters.&rdquo; Hosts Kurt and Sam, with producer Kimberly and regular guests, talk through new 4K UHD and Blu-ray releases, boutique labels such as Arrow Video, Criterion, Kino Lorber and Shout Factory, and the films on their shelves.</p>
   <p>Every episode ends with the hosts &ldquo;putting wishes out into the physical media universe&rdquo;: each names a film they want released on a format it isn't on yet. This page tracks all __NWISHES__ wishes across __NEPS__ episodes, and the __NYES__ that have come true so far.</p>
   <p class="listen">Listen: <a href="https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773" target="_blank" rel="noopener">Apple Podcasts</a> · <a href="https://www.youtube.com/@ptmoviepod" target="_blank" rel="noopener">YouTube</a> · <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener">all links</a> · <a href="https://boxd.it/lR6On" target="_blank" rel="noopener">Letterboxd</a></p>
-</section>
+</details>
 
-<section aria-labelledby="h-wishes">
-  <h2 id="h-wishes">All wishes</h2>
+<details class="sec" id="sec-wishes" open>
+  <summary><h2 id="h-wishes">All wishes</h2></summary>
   <div class="controls">
-    <input type="search" id="q" placeholder="Search films, formats, episodes…" aria-label="Search wishes">
+    <input type="search" id="q" placeholder="Already wished for? Search…" aria-label="Search wishes">
     <select id="who" aria-label="Wished by"><option value="">Everyone</option></select>
     <div class="chips" id="chips" role="group" aria-label="Outcome"></div>
   </div>
@@ -168,15 +173,15 @@ footer p { margin: 0 0 8px; }
       <tbody id="rows">__ROWS__</tbody>
     </table>
   </div>
-</section>
+</details>
 
-<section aria-labelledby="h-board">
-  <h2 id="h-board">Leader board</h2>
+<details class="sec" id="sec-board" open>
+  <summary><h2 id="h-board">Leader board</h2></summary>
   __LEADERBOARD__
-</section>
+</details>
 
-<section aria-labelledby="h-repeats">
-  <h2 id="h-repeats">Repeat wishes 🔔</h2>
+<details class="sec" id="sec-repeats" open>
+  <summary><h2 id="h-repeats">Repeat wishes 🔔</h2></summary>
   <p class="count">Shame! Each of these had already been wished for on the show, so they are left off the leader board.</p>
   <div class="scroll">
     <table id="repeats" class="cards">
@@ -184,7 +189,7 @@ footer p { margin: 0 0 8px; }
       <tbody id="reprows">__REPROWS__</tbody>
     </table>
   </div>
-</section>
+</details>
 
 <footer>
   <p>Film titles link to Letterboxd; hover a title for its poster. Outcomes link to the release page on Blu-ray.com where one was found. Episode links open YouTube at the wish segment.</p>
@@ -204,6 +209,23 @@ footer p { margin: 0 0 8px; }
   var ORDER = { yes: 0, announced: 1, partly: 2, listed: 3, no: 4 };
   var state = { q: '', who: '', status: '', key: 'epn', dir: 1 };
   var $ = function (id) { return document.getElementById(id); };
+  function squash(s) { return s.toLowerCase().replace(/[^a-z0-9]/g, ''); }
+
+  // collapsible sections remember whether they were left open or closed
+  var shut = [];
+  try { shut = JSON.parse(localStorage.getItem('ptw-collapsed') || '[]'); } catch (e) {}
+  [].forEach.call(document.querySelectorAll('details.sec'), function (d) {
+    if (shut.indexOf(d.id) >= 0) d.open = false;
+    d.addEventListener('toggle', function () {
+      var now = [].filter.call(document.querySelectorAll('details.sec'), function (x) { return !x.open; }).map(function (x) { return x.id; });
+      try { localStorage.setItem('ptw-collapsed', JSON.stringify(now)); } catch (e) {}
+    });
+  });
+  // "/" jumps to the search box
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+    e.preventDefault(); $('sec-wishes').open = true; $('q').focus();
+  });
   function el(tag, attrs, kids) {
     var n = document.createElement(tag), k;
     for (k in attrs || {}) { if (k === 'text') n.textContent = attrs[k]; else if (attrs[k] != null) n.setAttribute(k, attrs[k]); }
@@ -340,7 +362,7 @@ footer p { margin: 0 0 8px; }
       if (state.who && (r.guest ? 'Guests' : r.who) !== state.who) return false;
       if (state.q) {
         var hay = [r.movie, r.fmt, r.who, r.ep, r.epTitle, r.detail, r.pub || '', r.notes].join(' ').toLowerCase();
-        if (hay.indexOf(state.q) < 0) return false;
+        if (hay.indexOf(state.q) < 0 && (!squash(state.q) || squash(hay).indexOf(squash(state.q)) < 0)) return false;
       }
       return true;
     });
@@ -352,7 +374,9 @@ footer p { margin: 0 0 8px; }
     var tb = $('rows'), frag = document.createDocumentFragment();
     list.forEach(function (r) { frag.appendChild(rowNode(r)); });
     tb.textContent = ''; tb.appendChild(frag);
-    $('count').textContent = list.length === rows.length ? rows.length + ' wishes' : list.length + ' of ' + rows.length + ' wishes';
+    $('count').textContent = list.length === rows.length ? rows.length + ' wishes'
+      : list.length ? list.length + ' of ' + rows.length + ' wishes'
+      : state.q ? 'No wish matches “' + $('q').value.trim() + '”. Nobody has wished for that yet.' : 'No wishes match these filters.';
   }
   render();
 })();
