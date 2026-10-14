@@ -1,4 +1,4 @@
-# Wishes into the Physical Media Universe
+# Wishes in the Physical Media Universe
 
 Every disc wished for at the end of [Physical Therapy: A Movie Podcast](https://linktr.ee/ptmoviepod), and whether the wish came true.
 

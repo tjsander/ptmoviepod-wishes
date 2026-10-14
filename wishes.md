@@ -1,4 +1,4 @@
-# Wishes into the Physical Media Universe
+# Wishes in the Physical Media Universe
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 

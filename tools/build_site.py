@@ -64,7 +64,7 @@ def mini_leaderboard():
     return "\n".join(out)
 
 
-title = next((line[2:].strip() for line in md if line.startswith("# ")), "Wishes into the Physical Media Universe")
+title = next((line[2:].strip() for line in md if line.startswith("# ")), "Wishes in the Physical Media Universe")
 payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 PAGE = r"""<!doctype html>
@@ -181,7 +181,7 @@ footer p { margin: 0 0 8px; }
 <header class="hero">
 <div class="hero-in">
   <h1>__TITLE__</h1>
-  <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, the show about physical media, film preservation and why owning movies matters, hosted by Kurt and Sam, and whether each wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
+  <p>Every disc wished for at the end of <a href="https://linktr.ee/ptmoviepod" target="_blank" rel="noopener"><em>Physical Therapy: A Movie Podcast</em></a>, a show about physical media, film preservation and why owning movies matters, hosted by Kurt and Sam, and whether each wish came true. Release status checked <span id="checked">__CHECKED__</span>.</p>
 </div>
 </header>
 <main>
