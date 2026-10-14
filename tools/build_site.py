@@ -69,12 +69,12 @@ PAGE = r"""<!doctype html>
 <style>
 :root {
   --bg: #f4f1ea; --card: #fffdf8; --ink: #1c1b19; --mute: #6b665c; --line: #ddd6c8; --accent: #9a3b1f; --head: #ebe5d8;
-  --yes: #1f7a4d; --yes-bg: #dff1e6; --ann: #1d5fa8; --ann-bg: #dfeaf8; --lst: #8a5a00; --lst-bg: #f8ecc9; --par: #6a3fa0; --par-bg: #ece2f7; --no: #6b665c; --no-bg: #e9e5db;
+  --yes: #1f7a4d; --yes-bg: #dff1e6; --ann: #1d5fa8; --ann-bg: #dfeaf8; --lst: #8a5a00; --lst-bg: #f8ecc9; --par: #6a3fa0; --par-bg: #ece2f7; --no: #6b665c; --no-bg: #e9e5db; --rep: #b3261e; --rep-bg: #fbe1de;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #15161a; --card: #1d1f24; --ink: #ecebe7; --mute: #9d9a92; --line: #33363d; --accent: #f0a37f; --head: #24272d;
-    --yes: #7fd6a4; --yes-bg: #173526; --ann: #8fbcf2; --ann-bg: #162b45; --lst: #e8c36a; --lst-bg: #3a2e10; --par: #c6a6ee; --par-bg: #2c2040; --no: #9d9a92; --no-bg: #2a2c31;
+    --yes: #7fd6a4; --yes-bg: #173526; --ann: #8fbcf2; --ann-bg: #162b45; --lst: #e8c36a; --lst-bg: #3a2e10; --par: #c6a6ee; --par-bg: #2c2040; --no: #9d9a92; --no-bg: #2a2c31; --rep: #ff9a8f; --rep-bg: #4a1f1b;
   }
 }
 * { box-sizing: border-box; }
@@ -116,6 +116,7 @@ thead th { background: var(--head); font-size: .8rem; text-transform: uppercase;
 .note, .sub { display: block; color: var(--mute); font-size: .85rem; font-weight: 400; }
 .pill { display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
 .s-yes { color: var(--yes); background: var(--yes-bg); } .s-announced { color: var(--ann); background: var(--ann-bg); }
+.s-repeat { color: var(--rep); background: var(--rep-bg); margin-left: 6px; }
 .s-listed { color: var(--lst); background: var(--lst-bg); } .s-partly { color: var(--par); background: var(--par-bg); } .s-no { color: var(--no); background: var(--no-bg); }
 .ep { white-space: nowrap; font-variant-numeric: tabular-nums; }
 #poster { position: fixed; z-index: 10; width: 190px; pointer-events: none; display: none; border-radius: 8px; overflow: hidden; background: var(--head); box-shadow: 0 10px 30px rgba(0, 0, 0, .35); border: 1px solid var(--line); }
@@ -204,7 +205,7 @@ footer p { margin: 0 0 8px; }
 <script id="data" type="application/json">__DATA__</script>
 <script>
 (function () {
-  var D = JSON.parse(document.getElementById('data').textContent), reps = D.rows.filter(function (r) { return r.repeat; }), rows = D.rows.filter(function (r) { return !r.repeat; });
+  var D = JSON.parse(document.getElementById('data').textContent), reps = D.rows.filter(function (r) { return r.repeat; }), rows = D.rows, counted = D.rows.filter(function (r) { return !r.repeat; });
   var LABEL = { yes: 'Yes', announced: 'Announced', listed: 'Not yet', partly: 'Partly', no: 'No' };
   var ORDER = { yes: 0, announced: 1, partly: 2, listed: 3, no: 4 };
   var state = { q: '', who: '', status: '', key: 'epn', dir: 1 };
@@ -239,8 +240,8 @@ footer p { margin: 0 0 8px; }
   var people = [], seen = {};
   rows.forEach(function (r) { var w = r.guest ? 'Guests' : r.who; if (!seen[w]) { seen[w] = 1; people.push(w); } });
   ['Kurt', 'Sam', 'Bobby', 'Kimberly', 'Guests'].filter(function (p) { return seen[p]; }).forEach(function (p) { $('who').appendChild(el('option', { value: p, text: p })); });
-  [['', 'All'], ['yes', 'Came true'], ['announced', 'Announced'], ['partly', 'Partly'], ['listed', 'Listed, no date'], ['no', 'No']].forEach(function (c) {
-    var n = c[0] ? rows.filter(function (r) { return r.status === c[0]; }).length : rows.length;
+  [['', 'All'], ['yes', 'Came true'], ['announced', 'Announced'], ['partly', 'Partly'], ['listed', 'Listed, no date'], ['no', 'No'], ['repeat', 'Repeats 🔔']].forEach(function (c) {
+    var n = c[0] === 'repeat' ? reps.length : c[0] ? counted.filter(function (r) { return r.status === c[0]; }).length : counted.length;
     var b = el('button', { type: 'button', class: 'chip', 'aria-pressed': c[0] === '' ? 'true' : 'false', 'data-s': c[0], text: c[1] + ' (' + n + ')' });
     b.addEventListener('click', function () { state.status = c[0]; [].forEach.call($('chips').children, function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); render(); });
     $('chips').appendChild(b);
@@ -321,8 +322,9 @@ footer p { margin: 0 0 8px; }
     return movie;
   }
   function epLink(x) { return el('a', { class: 'ep', href: 'https://www.youtube.com/watch?v=' + x.vid + (x.t ? '&t=' + x.t + 's' : ''), target: '_blank', rel: 'noopener', text: x.ep }); }
-  function outcomeCell(r) {
+  function outcomeCell(r, tag) {
     var out = el('td', { 'data-l': 'Came true' }, [el('span', { class: 'pill s-' + r.status, text: LABEL[r.status] })]);
+    if (tag && r.repeat) out.appendChild(el('span', { class: 'pill s-repeat', text: 'Repeat 🔔' }));
     var bits = [];
     if (r.status === 'listed') bits.push((r.detail || '').replace(' listed with no date', '') + ' listed with no date');
     else if (r.detail) bits.push(r.detail);
@@ -341,7 +343,7 @@ footer p { margin: 0 0 8px; }
   }
   function rowNode(r) {
     var ep = el('td', { 'data-l': 'Episode' }, [epLink(r), el('span', { class: 'sub', text: r.epTitle + ' · ' + fmtDate(r.date) })]);
-    return el('tr', {}, [movieCell(r), el('td', { 'data-l': 'Wished for', text: r.fmt }), outcomeCell(r), ep, el('td', { 'data-l': 'Wished by' }, [r.who + (r.guest ? ' (guest)' : '')].concat(r.confirmed === false ? [el('span', { class: 'sub', text: 'unconfirmed' })] : []))]);
+    return el('tr', {}, [movieCell(r), el('td', { 'data-l': 'Wished for', text: r.fmt }), outcomeCell(r, true), ep, el('td', { 'data-l': 'Wished by' }, [r.who + (r.guest ? ' (guest)' : '')].concat(r.confirmed === false ? [el('span', { class: 'sub', text: 'unconfirmed' })] : []))]);
   }
   function repNode(r) {
     var again = el('td', { 'data-l': 'Repeated by' }, [r.who + ' · ', epLink(r), el('span', { class: 'sub', text: fmtDate(r.date) + ' · asked for: ' + r.fmt })]);
@@ -358,7 +360,7 @@ footer p { margin: 0 0 8px; }
   }
   function render() {
     var list = rows.filter(function (r) {
-      if (state.status && r.status !== state.status) return false;
+      if (state.status === 'repeat' ? !r.repeat : (state.status && r.status !== state.status)) return false;
       if (state.who && (r.guest ? 'Guests' : r.who) !== state.who) return false;
       if (state.q) {
         var hay = [r.movie, r.fmt, r.who, r.ep, r.epTitle, r.detail, r.pub || '', r.notes].join(' ').toLowerCase();
@@ -374,8 +376,10 @@ footer p { margin: 0 0 8px; }
     var tb = $('rows'), frag = document.createDocumentFragment();
     list.forEach(function (r) { frag.appendChild(rowNode(r)); });
     tb.textContent = ''; tb.appendChild(frag);
-    $('count').textContent = list.length === rows.length ? rows.length + ' wishes'
-      : list.length ? list.length + ' of ' + rows.length + ' wishes'
+    var nr = list.filter(function (r) { return r.repeat; }).length, nw = list.length - nr;
+    var extra = nr ? ' + ' + nr + (nr === 1 ? ' repeat' : ' repeats') : '';
+    $('count').textContent = list.length === rows.length ? counted.length + ' wishes' + extra
+      : list.length ? (nw === counted.length ? nw : nw + ' of ' + counted.length) + ' wishes' + extra
       : state.q ? 'No wish matches “' + $('q').value.trim() + '”. Nobody has wished for that yet.' : 'No wishes match these filters.';
   }
   render();
@@ -422,7 +426,7 @@ def film_cell(r):
     return f'<td class="movie">{"".join(out)}{note}</td>'
 
 
-def outcome_cell(r):
+def outcome_cell(r, tag=False):
     bits = []
     if r["status"] == "listed":
         bits.append(r["detail"] + " listed with no date")
@@ -435,7 +439,8 @@ def outcome_cell(r):
         sub = f'<a href="{esc(r["urls"][0])}">{esc(sub)}</a>'
     else:
         sub = esc(sub)
-    return f'<td data-l="Came true"><span class="pill s-{r["status"]}">{LABEL[r["status"]]}</span>' + (f'<span class="sub">{sub}</span>' if sub else "") + "</td>"
+    shame = '<span class="pill s-repeat">Repeat 🔔</span>' if tag and r["repeat"] else ""
+    return f'<td data-l="Came true"><span class="pill s-{r["status"]}">{LABEL[r["status"]]}</span>{shame}' + (f'<span class="sub">{sub}</span>' if sub else "") + "</td>"
 
 
 def who_text(r):
@@ -443,7 +448,7 @@ def who_text(r):
 
 
 def row_html(r):
-    return (f'<tr>{film_cell(r)}<td data-l="Wished for">{esc(r["fmt"])}</td>{outcome_cell(r)}'
+    return (f'<tr>{film_cell(r)}<td data-l="Wished for">{esc(r["fmt"])}</td>{outcome_cell(r, True)}'
             f'<td data-l="Episode"><a class="ep" href="{yt(r)}">{r["ep"]}</a><span class="sub">{esc(r["epTitle"])} · {pretty(r["date"])}</span></td>'
             f'<td data-l="Wished by">{who_text(r)}</td></tr>')
 
@@ -468,7 +473,7 @@ jsonld = json.dumps({"@context": "https://schema.org", "@graph": [
      "sameAs": ["https://podcasts.apple.com/us/podcast/physical-therapy-a-movie-podcast/id1736079773", "https://www.youtube.com/@ptmoviepod", "https://boxd.it/lR6On"]}]},
     ensure_ascii=False).replace("</", "<\\/")
 
-PAGE = (PAGE.replace("__ROWS__", "".join(row_html(r) for r in main_rows)).replace("__REPROWS__", "".join(repeat_html(r) for r in repeat_rows))
+PAGE = (PAGE.replace("__ROWS__", "".join(row_html(r) for r in data["rows"])).replace("__REPROWS__", "".join(repeat_html(r) for r in repeat_rows))
         .replace("__DESC__", esc(desc)).replace("__URL__", SITE_URL).replace("__JSONLD__", jsonld).replace("__CHECKED__", pretty(data["checked"]))
         .replace("__NWISHES__", str(len(main_rows))).replace("__NEPS__", str(len({r["ep"] for r in data["rows"]}))).replace("__NYES__", str(n_yes)))
 (ROOT / "docs" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n", encoding="utf-8")
