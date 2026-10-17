@@ -26,7 +26,6 @@ Release status checked 17 Oct 2026.
 - **Everyone:** 35 of 232 wishes have come true, counting guests.
 - **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 10 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
-- **Unconfirmed:** 2 recent wishes were transcribed automatically and are waiting for a human check of who made them.
 
 | Movie | Format wished for | Format came true? | Wished-for publisher? | Ep. | Episode | Date | Wished by | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -260,8 +259,8 @@ Release status checked 17 Oct 2026.
 | The Whole Nine Yards (2000) | 4K from Kino | No | — | S3E06 | IDENTITY (2003) | 2026-09-14 | Kurt | First said Cop Land (Arrow 4K), then changed his wish |
 | The Thomas Crown Affair (1999) | Arrow Video | No | — | S3E07 | MARS ATTACKS! (1996) | 2026-09-25 | Sam |  |
 | Birdman (2014) | 4K | No | — | S3E07 | MARS ATTACKS! (1996) | 2026-09-25 | Kurt |  |
-| Sleepaway Camp (1983) | 4K big box from Arrow Video | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Kurt (unconfirmed) |  |
-| Mandy (2018) | 4K | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Sam (unconfirmed) |  |
+| Sleepaway Camp (1983) | 4K big box from Arrow Video | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Sam |  |
+| Mandy (2018) | 4K | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Kurt |  |
 
 ## Repeat wishes 🔔
 

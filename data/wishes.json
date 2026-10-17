@@ -2463,20 +2463,20 @@
   "ep": 92,
   "movie": "Sleepaway Camp (1983)",
   "fmt": "4K big box from Arrow Video",
-  "who": "Kurt",
+  "who": "Sam",
   "guest": false,
   "repeat": false,
   "notes": [],
-  "confirmed": false
+  "confirmed": true
  },
  {
   "ep": 92,
   "movie": "Mandy (2018)",
   "fmt": "4K",
-  "who": "Sam",
+  "who": "Kurt",
   "guest": false,
   "repeat": false,
   "notes": [],
-  "confirmed": false
+  "confirmed": true
  }
 ]

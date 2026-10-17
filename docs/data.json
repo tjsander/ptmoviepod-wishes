@@ -9123,9 +9123,9 @@
    "date": "2026-10-16",
    "vid": "hVLa73cpTas",
    "t": 2754,
-   "who": "Kurt",
+   "who": "Sam",
    "guest": false,
-   "confirmed": false,
+   "confirmed": true,
    "movie": "Sleepaway Camp (1983)",
    "segs": [
     [
@@ -9160,9 +9160,9 @@
    "date": "2026-10-16",
    "vid": "hVLa73cpTas",
    "t": 2754,
-   "who": "Sam",
+   "who": "Kurt",
    "guest": false,
-   "confirmed": false,
+   "confirmed": true,
    "movie": "Mandy (2018)",
    "segs": [
     [
