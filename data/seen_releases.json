@@ -653,6 +653,13 @@
    "name": "Predator (1987)",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/Predator-Blu-ray/209468/": {
+   "name": "Predator (SteelBook) (1987)",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "20th Century Fox",
+   "iso": "2018-08-07"
   }
  },
  "Fracture (2007)": {
@@ -1012,6 +1019,13 @@
    "name": "The American (2010)",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/The-American-Society-of-Magical-Negroes-Blu-ray/357597/": {
+   "name": "The American Society of Magical Negroes: Coll…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Universal Studios",
+   "iso": "2024-05-14"
   }
  },
  "What a Way to Go! (1964)": {
@@ -1249,6 +1263,13 @@
    "name": "Pink Floyd: Animals (Blu-ray Audio) (Cardboar…",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/Pink-Floyd-The-Early-Years-1968-Germin-ation-Blu-ray/321807/": {
+   "name": "Pink Floyd: The Early Years - 1968 Germi…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Pink Floyd Records",
+   "iso": "2017-03-24"
   }
  },
  "Godzilla Heisei-era films (box set)": {},
@@ -1383,6 +1404,34 @@
    "name": "Assassin's Creed (Ultimate Collector's Set) (…",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/Assassins-Pride-Blu-ray/288011/": {
+   "name": "Assassins Pride: Collector's Edition (SteelBo…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Sentai Filmworks",
+   "iso": "2021-06-29"
+  },
+  "https://www.blu-ray.com/movies/The-Assassins-Blu-ray/58418/": {
+   "name": "The Assassins (铜雀台) (Ton…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Well Go USA",
+   "iso": "2013-01-08"
+  },
+  "https://www.blu-ray.com/movies/Assassins-Creed-Blu-ray/206129/": {
+   "name": "Assassin's Creed (Deadpool Slip) (with Deadpo…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "20th Century Fox",
+   "iso": "2018-05-15"
+  },
+  "https://www.blu-ray.com/movies/The-Assassins-Blade-Blu-ray/65709/": {
+   "name": "The Assassin's Blade (The Butterfly Lovers) (…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Well Go USA",
+   "iso": "2013-05-07"
   }
  },
  "Miami Vice (2006)": {
@@ -1863,6 +1912,13 @@
    "name": "The Avengers: Earth's Mightiest Heroes (…",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/The-Avengers-Blu-ray/53907/": {
+   "name": "The Avengers (Graphic Novel Gift Set) (Marvel…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Disney",
+   "iso": "2012-09-25"
   }
  },
  "Only Lovers Left Alive (2013)": {
@@ -2111,6 +2167,13 @@
    "name": "The Thing 4K (Wal-Mart Exclusive) (1982)",
    "uhd": true,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/The-Thing-Blu-ray/332843/": {
+   "name": "The Thing (Wal-Mart Exclusive) (SteelBook) (2…",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Mill Creek Entertainment",
+   "iso": "2023-04-21"
   }
  },
  "G.I. Joe: Resolute (2009)": {},
@@ -2935,6 +2998,31 @@
    "name": "Shrine of Abominations (2025)",
    "uhd": false,
    "seen": "2026-10-13"
+  }
+ },
+ "Sleepaway Camp (1983)": {
+  "https://www.blu-ray.com/movies/Sleepaway-Camp-Blu-ray/79563/": {
+   "name": "Sleepaway Camp (1983)",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "Shout Factory",
+   "iso": "2014-05-27"
+  }
+ },
+ "Mandy (2018)": {
+  "https://www.blu-ray.com/movies/Mandy-Blu-ray/263852/": {
+   "name": "Mandy (2018)",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "RLJ Entertainment",
+   "iso": "2020-05-19"
+  },
+  "https://www.blu-ray.com/movies/Mandy-Blu-ray/210312/": {
+   "name": "Mandy (2018)",
+   "uhd": false,
+   "seen": "2026-10-17",
+   "pub": "RLJ Entertainment",
+   "iso": "2018-10-30"
   }
  }
 }

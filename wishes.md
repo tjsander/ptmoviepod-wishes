@@ -2,13 +2,13 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 13 Oct 2026.
+Release status checked 17 Oct 2026.
 
 ## Leader board
 
 | | Kurt | Sam | Bobby | Kimberly | Guests |
 |---|---|---|---|---|---|
-| Wishes made | 95 | 90 | 18 | 11 | 16 |
+| Wishes made | 96 | 91 | 18 | 11 | 16 |
 | Repeat wishes 🔔 (shame, not counted) | 🙈 2 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
 | Came true (wished format released in the US) | 20 (21%) | 11 (12%) | 1 (6%) | 0 (0%) | 3 (19%) |
 | Announced with a release date | 2 | 3 | 0 | 0 | 1 |
@@ -23,9 +23,10 @@ Release status checked 13 Oct 2026.
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 2 granted: Night of the Juggler and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
-- **Everyone:** 35 of 230 wishes have come true, counting guests.
+- **Everyone:** 35 of 232 wishes have come true, counting guests.
 - **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 10 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
+- **Unconfirmed:** 2 recent wishes were transcribed automatically and are waiting for a human check of who made them.
 
 | Movie | Format wished for | Format came true? | Wished-for publisher? | Ep. | Episode | Date | Wished by | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -259,6 +260,8 @@ Release status checked 13 Oct 2026.
 | The Whole Nine Yards (2000) | 4K from Kino | No | — | S3E06 | IDENTITY (2003) | 2026-09-14 | Kurt | First said Cop Land (Arrow 4K), then changed his wish |
 | The Thomas Crown Affair (1999) | Arrow Video | No | — | S3E07 | MARS ATTACKS! (1996) | 2026-09-25 | Sam |  |
 | Birdman (2014) | 4K | No | — | S3E07 | MARS ATTACKS! (1996) | 2026-09-25 | Kurt |  |
+| Sleepaway Camp (1983) | 4K big box from Arrow Video | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Kurt (unconfirmed) |  |
+| Mandy (2018) | 4K | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Sam (unconfirmed) |  |
 
 ## Repeat wishes 🔔
 

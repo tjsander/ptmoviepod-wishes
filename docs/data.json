@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-13",
+ "checked": "2026-10-17",
  "rows": [
   {
    "repeat": false,
@@ -9101,6 +9101,80 @@
      "kind": "movie",
      "id": 194662,
      "poster": "/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg"
+    }
+   ],
+   "fmt": "4K",
+   "status": "no",
+   "detail": "",
+   "pub": null,
+   "label": "none",
+   "labelText": "",
+   "urls": [],
+   "released": null,
+   "notes": ""
+  },
+  {
+   "repeat": false,
+   "ep": "S3E08",
+   "epn": 92,
+   "epTitle": "HORROR PICKS - Pt. 1",
+   "date": "2026-10-16",
+   "vid": "hVLa73cpTas",
+   "t": 2754,
+   "who": "Kurt",
+   "guest": false,
+   "confirmed": false,
+   "movie": "Sleepaway Camp (1983)",
+   "segs": [
+    [
+     "Sleepaway Camp (1983)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "Sleepaway Camp",
+     "year": "1983",
+     "kind": "movie",
+     "id": 13567,
+     "poster": "/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg"
+    }
+   ],
+   "fmt": "4K big box from Arrow Video",
+   "status": "no",
+   "detail": "",
+   "pub": null,
+   "label": "none",
+   "labelText": "",
+   "urls": [],
+   "released": null,
+   "notes": ""
+  },
+  {
+   "repeat": false,
+   "ep": "S3E08",
+   "epn": 92,
+   "epTitle": "HORROR PICKS - Pt. 1",
+   "date": "2026-10-16",
+   "vid": "hVLa73cpTas",
+   "t": 2754,
+   "who": "Sam",
+   "guest": false,
+   "confirmed": false,
+   "movie": "Mandy (2018)",
+   "segs": [
+    [
+     "Mandy (2018)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "Mandy",
+     "year": "2018",
+     "kind": "movie",
+     "id": 460885,
+     "poster": "/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg"
     }
    ],
    "fmt": "4K",
