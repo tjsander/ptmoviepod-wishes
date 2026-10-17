@@ -55,10 +55,11 @@ if changed:
     wishlib.build_all()
     if not a.no_publish:
         update.publish([], [])
-        # close the review issue for any episode whose wishes are now all confirmed
-        for code, n in codes.items():
-            if any(w["ep"] == n for w in wishes) and all(w.get("confirmed", True) for w in wishes if w["ep"] == n):
-                for num in update.run(["gh", "issue", "list", "--state", "open", "--search", f'"Review: new wishes from {code}" in:title',
-                                       "--json", "number", "--jq", ".[].number"], cwd=wishlib.ROOT).stdout.split():
-                    update.run(["gh", "issue", "close", num, "--comment", f"All {code} wishes confirmed."], cwd=wishlib.ROOT)
-                    print(f"closed issue #{num}")
+# close the review issue for any episode whose wishes are all confirmed (even if this run changed nothing)
+if not a.no_publish:
+    for code, n in codes.items():
+        if any(w["ep"] == n for w in wishes) and all(w.get("confirmed", True) for w in wishes if w["ep"] == n):
+            for num in update.run(["gh", "issue", "list", "--state", "open", "--search", f'"Review: new wishes from {code}" in:title',
+                                   "--json", "number", "--jq", ".[].number"], cwd=wishlib.ROOT).stdout.split():
+                update.run(["gh", "issue", "close", num, "--comment", f"All {code} wishes confirmed."], cwd=wishlib.ROOT)
+                print(f"closed issue #{num}")
