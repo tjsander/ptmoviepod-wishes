@@ -685,5 +685,15 @@
   "urls": [],
   "released": null,
   "manual": true
+ },
+ "Die Hard with a Vengeance (1995)": {
+  "status": "announced",
+  "detail": "4K due Dec 2026",
+  "pub": "20th Century Studios",
+  "urls": [
+   "https://bsky.app/profile/disc-connected.bsky.social/post/3mxf24cbvfs22"
+  ],
+  "released": "2026-12-01",
+  "manual": false
  }
 }

@@ -6477,13 +6477,15 @@
     }
    ],
    "fmt": "Not stated",
-   "status": "no",
-   "detail": "",
-   "pub": null,
-   "label": "none",
-   "labelText": "",
-   "urls": [],
-   "released": null,
+   "status": "announced",
+   "detail": "4K due Dec 2026",
+   "pub": "20th Century Studios",
+   "label": "n/a",
+   "labelText": "n/a (20th Century Studios)",
+   "urls": [
+    "https://bsky.app/profile/disc-connected.bsky.social/post/3mxf24cbvfs22"
+   ],
+   "released": "2026-12-01",
    "notes": ""
   },
   {

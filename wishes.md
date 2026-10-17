@@ -11,14 +11,14 @@ Release status checked 17 Oct 2026.
 | Wishes made | 96 | 91 | 18 | 11 | 16 |
 | Repeat wishes 🔔 (shame, not counted) | 🙈 2 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
 | Came true (wished format released in the US) | 20 (21%) | 11 (12%) | 1 (6%) | 0 (0%) | 3 (19%) |
-| Announced with a release date | 2 | 3 | 0 | 0 | 1 |
+| Announced with a release date | 3 | 3 | 0 | 0 | 1 |
 | Listed with no date yet | 3 | 7 | 0 | 1 | 0 |
 | Partly came true | 1 | 2 | 0 | 0 | 0 |
-| Will come true (announced + listed + half for partly) | 5.5 | 11 | 0 | 1 | 1 |
+| Will come true (announced + listed + half for partly) | 6.5 | 11 | 0 | 1 | 1 |
 | Fastest wish granted | Them!, 54 days | A Nightmare on Elm Street, 200 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
 | Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Night of the Juggler, 501 days |
 | Average wait for a granted wish | 342 days | 444 days | 816 days | — | 313 days |
-| Granted (came true + will come true) | 🥇 25.5 (27%) | 🥈 22 (24%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
+| Granted (came true + will come true) | 🥇 26.5 (28%) | 🥈 22 (24%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
 
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 2 granted: Night of the Juggler and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
@@ -196,7 +196,7 @@ Release status checked 17 Oct 2026.
 | Josie and the Pussycats (2001) | Not stated | No | — | S2E44 | CLUELESS (1995) with Jane Kang | 2025-11-24 | Sam |  |
 | The Twilight Saga | 4K reissue | No (a five-film 4K set (Lionsgate, Nov 2023) predates the wish) | — | S2E44 | CLUELESS (1995) with Jane Kang | 2025-11-24 | Kurt |  |
 | Medicine Man (1992) | Not stated | No | — | S2E45 | PREDATOR / THE RUNNING MAN (1987) | 2025-12-06 | Sam |  |
-| Die Hard with a Vengeance (1995) | Not stated | No | — | S2E45 | PREDATOR / THE RUNNING MAN (1987) | 2025-12-06 | Kurt |  |
+| Die Hard with a Vengeance (1995) | Not stated | Announced (4K due Dec 2026) | n/a (20th Century Studios) | S2E45 | PREDATOR / THE RUNNING MAN (1987) | 2025-12-06 | Kurt |  |
 | Rollerball (2002) | Not stated (Arrow mentioned) | No | — | S2E45 | PREDATOR / THE RUNNING MAN (1987) | 2025-12-06 | Kurt | Added as a second wish |
 | The King of Comedy (1982) | 4K from Criterion | No | — | S2E46 | IN THE MOUTH OF MADNESS (1994) | 2025-12-17 | Kurt |  |
 | The Thing (1982) | 4K Arrow big box | No (Universal 4K (2021) only in the US) | — | S2E46 | IN THE MOUTH OF MADNESS (1994) | 2025-12-17 | Sam |  |
