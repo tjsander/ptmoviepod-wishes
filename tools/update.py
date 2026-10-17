@@ -35,6 +35,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bsky  # noqa: E402
 import vtt2txt  # noqa: E402
 import wishlib  # noqa: E402
 from wishlib import DATA, ROOT, load, save  # noqa: E402
@@ -376,7 +377,7 @@ def check_releases(dry, baseline=False):
         if status == "yes":
             continue
         # an announced date arriving, or a date appearing on an undated listing
-        if o and status in ("listed", "announced") and o.get("urls") and not baseline:
+        if o and status in ("listed", "announced") and o.get("urls") and "blu-ray.com" in o["urls"][0] and not baseline:
             before = o.get("released")
             pub, iso = release_page(o["urls"][0])
             if iso and iso != o.get("released"):
@@ -440,6 +441,58 @@ def check_releases(dry, baseline=False):
     return report
 
 
+def check_bsky(dry, state):
+    """Apply release announcements Disc Connected posted on Bluesky since the last look; return report lines."""
+    since = state.get("last_bsky") or (state.get("last_release_check", TODAY.isoformat()) + "T00:00:00Z")
+    try:
+        found, newest = bsky.fetch_since(since)
+    except Exception as e:  # network or API trouble shouldn't stop the rest of the update
+        log("bluesky check failed:", e)
+        return []
+    outcomes, wishes = load("outcomes.json"), load("wishes.json")
+    fmts = {}
+    for w in wishes:
+        fmts.setdefault(w["movie"], []).append(w["fmt"])
+    report = []
+    for movie in fmts:
+        key = wishlib.outcome_key(movie, outcomes)
+        o = outcomes.get(key) if key else None
+        status = o["status"] if o else "no"
+        if status == "yes":
+            continue
+        hits = [a for a in found if bsky.matches(a, movie)]
+        if not hits:
+            continue
+        for a in hits:
+            report.append(f"Announcement for **{movie}**: {a['title']}, {a['fmt']}, {a['pub']}, {a['iso'] or a['when']} {a['url']}")
+        if o and o.get("manual"):
+            report.append(f"  ↳ {movie} is judged by hand (edition-specific wish), so its status was left as “{status}”.")
+            continue
+        want4k = any("4K" in f for f in fmts[movie])
+        loose = any(("Blu-ray" in f and "4K" not in f) or f.startswith("Any") or "Not stated" in f for f in fmts[movie])
+        labels = {l for f in fmts[movie] for l in wishlib.wanted_labels(f)}
+        good = [a for a in hits if not REPACK.search(a["title"] + " " + a["fmt"])
+                and ((want4k and a["uhd"]) or (loose and not want4k) or (not want4k and not loose and a["pub"] in labels))]
+        if not good:
+            continue
+        best = min(good, key=lambda a: (a["iso"] is None, a["iso"] or "", not a["uhd"]))
+        kind = "4K" if best["uhd"] else "Blu-ray"
+        if best["iso"] and datetime.date.fromisoformat(best["iso"]) <= TODAY:
+            new = dict(status="yes", detail=f"{kind}, {month(best['iso'])}")
+        elif best["iso"]:
+            new = dict(status="announced", detail=f"{kind} due {month(best['iso'])}")
+        else:
+            new = dict(status="listed", detail=kind)
+        if wishlib.RANK[new["status"]] > wishlib.RANK[status]:
+            outcomes[key or movie] = dict(new, pub=best["pub"], urls=[best["url"]], released=best["iso"], manual=False)
+            report.append(f"  ↳ **{movie}**: {status} → {new['status']} ({new['detail']}, {best['pub']})")
+    if not dry:
+        save("outcomes.json", outcomes)
+        state["last_bsky"] = newest
+        save("state.json", state)
+    return report
+
+
 # ---------------------------------------------------------------- publish
 
 def publish(added, report):
@@ -467,7 +520,7 @@ def publish(added, report):
         body += ["", "To confirm: open `confirm/index.html` on the machine that ran the update, check each wisher, then run `python3 tools/confirm.py` and paste the results. "
                  "If a title or format is wrong, edit `data/wishes.json` and run `python3 tools/update.py --skip-releases`.", ""]
     if report:
-        body += ["### Release changes found on Blu-ray.com", "", "These were applied automatically from title matches, so please check them.", ""] + [f"- {line}" if not line.startswith("  ") else line for line in report]
+        body += ["### Release changes found (Blu-ray.com and Disc Connected on Bluesky)", "", "These were applied automatically from title matches, so please check them.", ""] + [f"- {line}" if not line.startswith("  ") else line for line in report]
     title = "Review: " + (", ".join(f"new wishes from {wishlib.ep_code(e)}" for e, _ in added) or "release status changes")
     issue = run(["gh", "issue", "create", "--title", title, "--body", "\n".join(body)], cwd=ROOT)
     log("review issue:", issue.stdout.strip() or issue.stderr.strip()[-200:])
@@ -503,6 +556,12 @@ def main():
         if not a.dry_run:
             state["last_release_check"] = state["checked"] = TODAY.isoformat()
             save("state.json", state)
+    if not a.skip_releases:
+        log("checking Disc Connected on Bluesky…")
+        extra = check_bsky(a.dry_run, state)
+        for line in extra:
+            log(" ", line)
+        report += extra
     if a.dry_run:
         log("dry run: nothing written")
         return

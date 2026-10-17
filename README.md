@@ -12,7 +12,7 @@ Every disc wished for at the end of [Physical Therapy: A Movie Podcast](https://
 
 1. Checks the podcast feed for a new episode.
 2. Fetches the YouTube captions, finds the wish segment and asks Claude (`claude -p`) to transcribe the wishes.
-3. About weekly, re-checks Blu-ray.com listings for every wish that hasn't come true.
+3. About weekly, re-checks Blu-ray.com listings for every wish that hasn't come true. Every day it also reads new announcement posts from [Disc Connected on Bluesky](https://bsky.app/profile/disc-connected.bsky.social) (public API, nothing newer than the last look is fetched) and matches them to wishes (`tools/bsky.py`).
 4. Rebuilds `wishes.md` and the site, commits, pushes, and opens an issue asking for a review.
 
 New wishes are published straight away, marked "unconfirmed". To confirm who made them, open `confirm/index.html`
