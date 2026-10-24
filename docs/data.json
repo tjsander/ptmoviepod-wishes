@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-17",
+ "checked": "2026-10-24",
  "rows": [
   {
    "repeat": false,
@@ -4538,8 +4538,8 @@
     }
    ],
    "fmt": "Second Sight release",
-   "status": "announced",
-   "detail": "Blu-ray due 20 Oct 2026",
+   "status": "yes",
+   "detail": "Blu-ray, Oct 2026",
    "pub": "Radiance Films",
    "label": "no",
    "labelText": "No (Radiance Films, not Second Sight)",
@@ -4606,13 +4606,15 @@
     }
    ],
    "fmt": "4K",
-   "status": "no",
-   "detail": "4K import only (France)",
-   "pub": null,
-   "label": "none",
-   "labelText": "",
-   "urls": [],
-   "released": null,
+   "status": "announced",
+   "detail": "4K due Dec 2026",
+   "pub": "Magnolia Pictures",
+   "label": "n/a",
+   "labelText": "n/a (Magnolia Pictures)",
+   "urls": [
+    "https://www.blu-ray.com/movies/The-Host-4K-Blu-ray/423823/"
+   ],
+   "released": "2026-12-08",
    "notes": ""
   },
   {
@@ -7529,8 +7531,8 @@
     }
    ],
    "fmt": "Blu-ray",
-   "status": "announced",
-   "detail": "Blu-ray due 23 Oct 2026",
+   "status": "yes",
+   "detail": "Blu-ray, Oct 2026",
    "pub": "Raven Banner",
    "label": "n/a",
    "labelText": "n/a (Raven Banner)",

@@ -2,7 +2,7 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 17 Oct 2026.
+Release status checked 24 Oct 2026.
 
 ## Leader board
 
@@ -10,20 +10,20 @@ Release status checked 17 Oct 2026.
 |---|---|---|---|---|---|
 | Wishes made | 96 | 91 | 18 | 11 | 16 |
 | Repeat wishes 🔔 (shame, not counted) | 🙈 2 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
-| Came true (wished format released in the US) | 20 (21%) | 11 (12%) | 1 (6%) | 0 (0%) | 3 (19%) |
-| Announced with a release date | 3 | 3 | 0 | 0 | 1 |
+| Came true (wished format released in the US) | 20 (21%) | 12 (13%) | 1 (6%) | 0 (0%) | 4 (25%) |
+| Announced with a release date | 4 | 2 | 0 | 0 | 0 |
 | Listed with no date yet | 3 | 7 | 0 | 1 | 0 |
 | Partly came true | 1 | 2 | 0 | 0 | 0 |
-| Will come true (announced + listed + half for partly) | 6.5 | 11 | 0 | 1 | 1 |
+| Will come true (announced + listed + half for partly) | 7.5 | 10 | 0 | 1 | 0 |
 | Fastest wish granted | Them!, 54 days | A Nightmare on Elm Street, 200 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
-| Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Night of the Juggler, 501 days |
-| Average wait for a granted wish | 342 days | 444 days | 816 days | — | 313 days |
-| Granted (came true + will come true) | 🥇 26.5 (28%) | 🥈 22 (24%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
+| Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Visitor Q, 554 days |
+| Average wait for a granted wish | 342 days | 430 days | 816 days | — | 374 days |
+| Granted (came true + will come true) | 🥇 27.5 (29%) | 🥈 22 (24%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
 
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
-- **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 2 granted: Night of the Juggler and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
+- **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 3 granted: Night of the Juggler and Visitor Q and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
-- **Everyone:** 35 of 232 wishes have come true, counting guests.
+- **Everyone:** 37 of 232 wishes have come true, counting guests.
 - **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 10 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
 
@@ -145,9 +145,9 @@ Release status checked 17 Oct 2026.
 | Romeo + Juliet (1996) | 4K | No | — | S2E22 | Musicals! with Bobby Sevenich | 2025-04-07 | Kurt |  |
 | Pink Floyd – The Wall (1982) | 4K | No | — | S2E22 | Musicals! with Bobby Sevenich | 2025-04-07 | Sam |  |
 | Godzilla Heisei-era films (box set) | Criterion box set | No | — | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Sam |  |
-| Visitor Q (2001) | Second Sight release | Announced (Blu-ray due 20 Oct 2026) | No (Radiance Films, not Second Sight) | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Drew Hanks (guest) |  |
+| Visitor Q (2001) | Second Sight release | Yes (Blu-ray, Oct 2026) | No (Radiance Films, not Second Sight) | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Drew Hanks (guest) |  |
 | Original Heisei-era poster art included in that Godzilla set | Criterion box set | No | — | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Joel Jensen (guest) |  |
-| The Host (2006) | 4K | No (4K import only (France)) | — | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Kurt |  |
+| The Host (2006) | 4K | Announced (4K due Dec 2026) | n/a (Magnolia Pictures) | S2E23 | GODZILLA (1954-2023) with Drew Hanks & Joel Jensen | 2025-04-14 | Kurt |  |
 | Austin Powers trilogy | 4K box set | No (first film only, UK 4K import (Nov 2024)) | — | S2E24 | UNCLE BUCK (1989) with Cinema Possessed | 2025-05-10 | Kurt |  |
 | The Great Outdoors (1988) | Kino Lorber 4K | Yes (4K, May 2026) | Yes (Kino Lorber) | S2E24 | UNCLE BUCK (1989) with Cinema Possessed | 2025-05-10 | Sam |  |
 | The 13th Warrior (1999) | 4K from Arrow Video | No | — | S2E25 | CONSTANTINE (2005) | 2025-05-23 | Sam |  |
@@ -223,7 +223,7 @@ Release status checked 17 Oct 2026.
 | Shipwrecked (1990) | Not stated (back in print) | No | — | S2E50 | The 2026 Super Disc Wish List Episode with Brian Saur | 2026-01-16 | Sam | Wish-list special, one of three Disney vault titles wished together |
 | Say Anything... (1989) | Not stated (Blu-ray is out of print) | No | — | S2E50 | The 2026 Super Disc Wish List Episode with Brian Saur | 2026-01-16 | Sam | Wish-list special |
 | Train Dreams (2025) | Blu-ray or 4K | No | — | S2E50 | The 2026 Super Disc Wish List Episode with Brian Saur | 2026-01-16 | Sam | Wish-list special |
-| The Shrine of Abominations (stop-motion film by the artist Skinner) | Blu-ray | Announced (Blu-ray due 23 Oct 2026) | n/a (Raven Banner) | S2E50 | The 2026 Super Disc Wish List Episode with Brian Saur | 2026-01-16 | Sam | Wish-list special |
+| The Shrine of Abominations (stop-motion film by the artist Skinner) | Blu-ray | Yes (Blu-ray, Oct 2026) | n/a (Raven Banner) | S2E50 | The 2026 Super Disc Wish List Episode with Brian Saur | 2026-01-16 | Sam | Wish-list special |
 | Ferrari (2023) | 4K, US release | Not yet (4K listed with no date) | n/a (Decal Releasing) | S2E51 | Steven Spielberg's MINORITY REPORT (2002) New 4K Release | 2026-01-23 | Sam |  |
 | Phone Booth (2002) | 4K | No | — | S2E51 | Steven Spielberg's MINORITY REPORT (2002) New 4K Release | 2026-01-23 | Kurt |  |
 | The Strange Thing About the Johnsons (2011 short) | Blu-ray | No | — | S2E52 | John Woo's HARD BOILED (1992) from Shout Factory, Short Films, and a very special announcement from The Disc-Connected's Ryan Verrill | 2026-01-31 | Ryan Verrill (guest) |  |

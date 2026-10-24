@@ -380,8 +380,8 @@
   "manual": false
  },
  "Visitor Q": {
-  "status": "announced",
-  "detail": "Blu-ray due 20 Oct 2026",
+  "status": "yes",
+  "detail": "Blu-ray, Oct 2026",
   "pub": "Radiance Films",
   "urls": [
    "https://www.blu-ray.com/movies/Visitor-Q-Blu-ray/416290/"
@@ -390,8 +390,8 @@
   "manual": false
  },
  "The Shrine of Abominations": {
-  "status": "announced",
-  "detail": "Blu-ray due 23 Oct 2026",
+  "status": "yes",
+  "detail": "Blu-ray, Oct 2026",
   "pub": "Raven Banner",
   "urls": [
    "https://www.blu-ray.com/movies/Shrine-of-Abominations-Blu-ray/416231/"
@@ -655,11 +655,13 @@
   "manual": false
  },
  "The Host": {
-  "status": "no",
-  "detail": "4K import only (France)",
-  "pub": null,
-  "urls": [],
-  "released": null,
+  "status": "announced",
+  "detail": "4K due Dec 2026",
+  "pub": "Magnolia Pictures",
+  "urls": [
+   "https://www.blu-ray.com/movies/The-Host-4K-Blu-ray/423823/"
+  ],
+  "released": "2026-12-08",
   "manual": false
  },
  "Something Wild": {

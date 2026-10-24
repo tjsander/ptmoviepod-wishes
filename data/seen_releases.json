@@ -1026,6 +1026,13 @@
    "seen": "2026-10-17",
    "pub": "Universal Studios",
    "iso": "2024-05-14"
+  },
+  "https://www.blu-ray.com/movies/The-American-Friend-Blu-ray/142693/": {
+   "name": "The American Friend (Der amerikanische Freund…",
+   "uhd": false,
+   "seen": "2026-10-24",
+   "pub": "Criterion",
+   "iso": "2016-01-12"
   }
  },
  "What a Way to Go! (1964)": {
@@ -1270,6 +1277,13 @@
    "seen": "2026-10-17",
    "pub": "Pink Floyd Records",
    "iso": "2017-03-24"
+  },
+  "https://www.blu-ray.com/movies/Pink-Floyd-The-Early-Years-1969-Dramatis-ation-Blu-ray/321806/": {
+   "name": "Pink Floyd: The Early Years - 1969 Drama…",
+   "uhd": false,
+   "seen": "2026-10-24",
+   "pub": "Pink Floyd Records",
+   "iso": "2017-03-24"
   }
  },
  "Godzilla Heisei-era films (box set)": {},
@@ -1286,6 +1300,13 @@
    "name": "The Host (2006)",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/The-Host-4K-Blu-ray/423823/": {
+   "name": "The Host 4K (2006)",
+   "uhd": true,
+   "seen": "2026-10-24",
+   "pub": "Magnolia Pictures",
+   "iso": "2026-12-08"
   }
  },
  "Austin Powers trilogy": {
@@ -2174,6 +2195,13 @@
    "seen": "2026-10-17",
    "pub": "Mill Creek Entertainment",
    "iso": "2023-04-21"
+  },
+  "https://www.blu-ray.com/movies/The-Thing-Blu-ray/157447/": {
+   "name": "The Thing (Deluxe Limited Edition) (Limited t…",
+   "uhd": false,
+   "seen": "2026-10-24",
+   "pub": "Shout Factory",
+   "iso": "2016-09-20"
   }
  },
  "G.I. Joe: Resolute (2009)": {},
