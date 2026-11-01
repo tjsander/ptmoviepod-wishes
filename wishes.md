@@ -2,30 +2,31 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 31 Oct 2026.
+Release status checked 1 Nov 2026.
 
 ## Leader board
 
 | | Kurt | Sam | Bobby | Kimberly | Guests |
 |---|---|---|---|---|---|
-| Wishes made | 96 | 91 | 18 | 11 | 16 |
-| Repeat wishes 🔔 (shame, not counted) | 🙈 2 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
-| Came true (wished format released in the US) | 20 (21%) | 12 (13%) | 1 (6%) | 0 (0%) | 4 (25%) |
+| Wishes made | 96 | 92 | 18 | 11 | 16 |
+| Repeat wishes 🔔 (shame, not counted) | 🙈 3 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
+| Came true (wished format released in the US) | 20 (21%) | 13 (14%) | 1 (6%) | 0 (0%) | 4 (25%) |
 | Announced with a release date | 4 | 2 | 0 | 0 | 0 |
 | Listed with no date yet | 3 | 7 | 0 | 1 | 0 |
 | Partly came true | 1 | 2 | 0 | 0 | 0 |
 | Will come true (announced + listed + half for partly) | 7.5 | 10 | 0 | 1 | 0 |
-| Fastest wish granted | Them!, 54 days | A Nightmare on Elm Street, 200 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
+| Fastest wish granted | Them!, 54 days | The Ring, -742 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
 | Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Visitor Q, 554 days |
-| Average wait for a granted wish | 342 days | 430 days | 816 days | — | 374 days |
-| Granted (came true + will come true) | 🥇 27.5 (29%) | 🥈 22 (24%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
+| Average wait for a granted wish | 342 days | 340 days | 816 days | — | 374 days |
+| Granted (came true + will come true) | 🥇 27.5 (29%) | 🥈 23 (25%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
 
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 3 granted: Night of the Juggler and Visitor Q and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
-- **Everyone:** 37 of 232 wishes have come true, counting guests.
-- **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 10 so far.
+- **Everyone:** 38 of 233 wishes have come true, counting guests.
+- **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 11 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
+- **Unconfirmed:** 2 recent wishes were transcribed automatically and are waiting for a human check of who made them.
 
 | Movie | Format wished for | Format came true? | Wished-for publisher? | Ep. | Episode | Date | Wished by | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -261,6 +262,7 @@ Release status checked 31 Oct 2026.
 | Birdman (2014) | 4K | No | — | S3E07 | MARS ATTACKS! (1996) | 2026-09-25 | Kurt |  |
 | Sleepaway Camp (1983) | 4K big box from Arrow Video | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Sam |  |
 | Mandy (2018) | 4K | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Kurt |  |
+| The Ring (2002) | 4K from Arrow Video | Yes (4K, Oct 2024) | No (Paramount, not Arrow) | S3E09 | HORROR PICKS - Pt. 2 | 2026-10-27 | Sam (unconfirmed) |  |
 
 ## Repeat wishes 🔔
 
@@ -278,6 +280,7 @@ Shame! Each of these had already been wished for on the show.
 | Executive Decision (1996) | Sam | S2E60 | 2026-05-05 | 4K from Kino | Sam, S2E10 (2024-12-14) | 4K from Arrow Video | No |
 | Grindhouse (2007) | Kurt | S3E04 | 2026-08-17 | Arrow big box | Kurt, S2E18 (2025-02-24) | 4K | No |
 | Little Children (2006) | Sam | S3E05 | 2026-08-31 | 4K | Bobby, S1E04 (2024-03-22) | Blu-ray | No |
+| Cape Fear (1991) | Kurt (unconfirmed) | S3E09 | 2026-10-27 | 4K from Arrow Video | Sam, S1E22 (2024-07-26) | 4K from Criterion | No |
 
 ## About the table
 

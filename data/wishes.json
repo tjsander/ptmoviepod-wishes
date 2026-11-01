@@ -2478,5 +2478,25 @@
   "repeat": false,
   "notes": [],
   "confirmed": true
+ },
+ {
+  "ep": 93,
+  "movie": "The Ring (2002)",
+  "fmt": "4K from Arrow Video",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": false
+ },
+ {
+  "ep": 93,
+  "movie": "Cape Fear (1991)",
+  "fmt": "4K from Arrow Video",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": true,
+  "notes": [],
+  "confirmed": false
  }
 ]

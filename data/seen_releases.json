@@ -1940,6 +1940,13 @@
    "seen": "2026-10-17",
    "pub": "Disney",
    "iso": "2012-09-25"
+  },
+  "https://www.blu-ray.com/movies/The-Avengers-Blu-ray/199807/": {
+   "name": "The Avengers (Best Buy Exclusive) (SteelBook)…",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Disney",
+   "iso": "2018-04-22"
   }
  },
  "Only Lovers Left Alive (2013)": {
@@ -3058,6 +3065,92 @@
    "seen": "2026-10-17",
    "pub": "RLJ Entertainment",
    "iso": "2018-10-30"
+  }
+ },
+ "The Ring (2002)": {
+  "https://www.blu-ray.com/movies/The-Ring-4K-Blu-ray/366639/": {
+   "name": "The Ring 4K (2002)",
+   "uhd": true,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2024-10-15"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-4K-Blu-ray/366679/": {
+   "name": "The Ring 4K (SteelBook) (2002)",
+   "uhd": true,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2024-10-15"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/260654/": {
+   "name": "The Ring (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2019-12-13"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/96308/": {
+   "name": "The Ring (SteelBook) (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Warner Bros.",
+   "iso": "2014-03-25"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/49023/": {
+   "name": "The Ring (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2012-09-11"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/321273/": {
+   "name": "The Ring (20th Anniversary Limited Edition) (…",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2022-10-18"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/71855/": {
+   "name": "The Ring (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Warner Bros.",
+   "iso": "2013-01-01"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/20451/": {
+   "name": "The Ring (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2012-03-20"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-4K-Blu-ray/346872/": {
+   "name": "The Ring 4K (2002)",
+   "uhd": true,
+   "seen": "2026-11-01",
+   "pub": "Shout Factory",
+   "iso": null
+  },
+  "https://www.blu-ray.com/movies/The-Ring-4K-Blu-ray/374102/": {
+   "name": "The Ring 4K (Wal-Mart Exclusive) (SteelBook) …",
+   "uhd": true,
+   "seen": "2026-11-01",
+   "pub": "Paramount",
+   "iso": "2024-10-15"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/86383/": {
+   "name": "The Ring (SteelBook) (2002)",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Warner Bros.",
+   "iso": "2013-10-01"
+  },
+  "https://www.blu-ray.com/movies/The-Ring-Blu-ray/86344/": {
+   "name": "The Ring (Best Buy Exclusive) (SteelBook) (20…",
+   "uhd": false,
+   "seen": "2026-11-01",
+   "pub": "Warner Bros.",
+   "iso": "2013-10-01"
   }
  }
 }

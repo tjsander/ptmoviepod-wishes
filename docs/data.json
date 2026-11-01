@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-31",
+ "checked": "2026-11-01",
  "rows": [
   {
    "repeat": false,
@@ -9190,6 +9190,90 @@
    "urls": [],
    "released": null,
    "notes": ""
+  },
+  {
+   "repeat": false,
+   "ep": "S3E09",
+   "epn": 93,
+   "epTitle": "HORROR PICKS - Pt. 2",
+   "date": "2026-10-27",
+   "vid": "MlyRrBYbLc0",
+   "t": 2454,
+   "who": "Sam",
+   "guest": false,
+   "confirmed": false,
+   "movie": "The Ring (2002)",
+   "segs": [
+    [
+     "The Ring (2002)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "The Ring",
+     "year": "2002",
+     "kind": "movie",
+     "id": 565,
+     "poster": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg"
+    }
+   ],
+   "fmt": "4K from Arrow Video",
+   "status": "yes",
+   "detail": "4K, Oct 2024",
+   "pub": "Paramount",
+   "label": "no",
+   "labelText": "No (Paramount, not Arrow)",
+   "urls": [
+    "https://www.blu-ray.com/movies/The-Ring-4K-Blu-ray/366639/"
+   ],
+   "released": "2024-10-15",
+   "notes": ""
+  },
+  {
+   "repeat": true,
+   "ep": "S3E09",
+   "epn": 93,
+   "epTitle": "HORROR PICKS - Pt. 2",
+   "date": "2026-10-27",
+   "vid": "MlyRrBYbLc0",
+   "t": 2454,
+   "who": "Kurt",
+   "guest": false,
+   "confirmed": false,
+   "movie": "Cape Fear (1991)",
+   "segs": [
+    [
+     "Cape Fear (1991)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "Cape Fear",
+     "year": "1991",
+     "kind": "movie",
+     "id": 1598,
+     "poster": "/meJZAAuVcjic2ipvbOPz5UlE4P9.jpg"
+    }
+   ],
+   "fmt": "4K from Arrow Video",
+   "status": "no",
+   "detail": "",
+   "pub": null,
+   "label": "none",
+   "labelText": "",
+   "urls": [],
+   "released": null,
+   "notes": "",
+   "first": {
+    "who": "Sam",
+    "ep": "S1E22",
+    "date": "2024-07-26",
+    "vid": "140i4TDf14I",
+    "t": 2546,
+    "fmt": "4K from Criterion"
+   }
   }
  ]
 }
