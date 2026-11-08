@@ -2,7 +2,7 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 1 Nov 2026.
+Release status checked 8 Nov 2026.
 
 ## Leader board
 

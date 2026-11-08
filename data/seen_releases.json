@@ -185,6 +185,13 @@
    "name": "The Rock (1996)",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/The-Rock-4K-Blu-ray/419351/": {
+   "name": "The Rock 4K (1996)",
+   "uhd": true,
+   "seen": "2026-11-08",
+   "pub": "Disney",
+   "iso": null
   }
  },
  "Junior (1994)": {
@@ -566,6 +573,13 @@
    "name": "Jerry Maguire 4K (1996)",
    "uhd": true,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/Jerry-Maguire-4K-Blu-ray/424491/": {
+   "name": "Jerry Maguire 4K (1996)",
+   "uhd": true,
+   "seen": "2026-11-08",
+   "pub": "Sony Pictures",
+   "iso": "2026-12-08"
   }
  },
  "Snow Angels (2007)": {},
@@ -1284,6 +1298,13 @@
    "seen": "2026-10-24",
    "pub": "Pink Floyd Records",
    "iso": "2017-03-24"
+  },
+  "https://www.blu-ray.com/movies/Pink-Floyd-Animals-50-Blu-ray/424518/": {
+   "name": "Pink Floyd: Animals 50 (1977)",
+   "uhd": false,
+   "seen": "2026-11-08",
+   "pub": "Sony Music",
+   "iso": "2027-01-22"
   }
  },
  "Godzilla Heisei-era films (box set)": {},
