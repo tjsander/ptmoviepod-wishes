@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-08",
+ "checked": "2026-11-15",
  "rows": [
   {
    "repeat": false,
@@ -7839,8 +7839,8 @@
     }
    ],
    "fmt": "Arrow Video",
-   "status": "announced",
-   "detail": "4K due Nov 2026",
+   "status": "yes",
+   "detail": "4K, Nov 2026",
    "pub": "Toy Robot Video",
    "label": "no",
    "labelText": "No (Toy Robot Video, not Arrow)",

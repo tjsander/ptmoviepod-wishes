@@ -2,7 +2,7 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 8 Nov 2026.
+Release status checked 15 Nov 2026.
 
 ## Leader board
 
@@ -10,20 +10,20 @@ Release status checked 8 Nov 2026.
 |---|---|---|---|---|---|
 | Wishes made | 96 | 92 | 18 | 11 | 16 |
 | Repeat wishes 🔔 (shame, not counted) | 🙈 3 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
-| Came true (wished format released in the US) | 20 (21%) | 13 (14%) | 1 (6%) | 0 (0%) | 4 (25%) |
-| Announced with a release date | 4 | 2 | 0 | 0 | 0 |
+| Came true (wished format released in the US) | 20 (21%) | 14 (15%) | 1 (6%) | 0 (0%) | 4 (25%) |
+| Announced with a release date | 4 | 1 | 0 | 0 | 0 |
 | Listed with no date yet | 3 | 7 | 0 | 1 | 0 |
 | Partly came true | 1 | 2 | 0 | 0 | 0 |
-| Will come true (announced + listed + half for partly) | 7.5 | 10 | 0 | 1 | 0 |
+| Will come true (announced + listed + half for partly) | 7.5 | 9 | 0 | 1 | 0 |
 | Fastest wish granted | Them!, 54 days | The Ring, -742 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
 | Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Visitor Q, 554 days |
-| Average wait for a granted wish | 342 days | 340 days | 816 days | — | 374 days |
+| Average wait for a granted wish | 342 days | 336 days | 816 days | — | 374 days |
 | Granted (came true + will come true) | 🥇 27.5 (29%) | 🥈 23 (25%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
 
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 3 granted: Night of the Juggler and Visitor Q and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
-- **Everyone:** 38 of 233 wishes have come true, counting guests.
+- **Everyone:** 39 of 233 wishes have come true, counting guests.
 - **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 11 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
 - **Unconfirmed:** 2 recent wishes were transcribed automatically and are waiting for a human check of who made them.
@@ -231,7 +231,7 @@ Release status checked 8 Nov 2026.
 | Titane (2021) | 4K, any label | No | — | S2E52 | John Woo's HARD BOILED (1992) from Shout Factory, Short Films, and a very special announcement from The Disc-Connected's Ryan Verrill | 2026-01-31 | Sam |  |
 | Windtalkers (2002) | 4K from Kino | No (new Blu-ray only (MVD, Jul 2026)) | — | S2E52 | John Woo's HARD BOILED (1992) from Shout Factory, Short Films, and a very special announcement from The Disc-Connected's Ryan Verrill | 2026-01-31 | Kurt |  |
 | Holes (2003) | 4K | No | — | S2E53 | Arrow Video's 4K UHD Steven Seagal Action Classic UNDER SIEGE (1992) | 2026-02-07 | Kurt |  |
-| Above the Law (1988) | Arrow Video | Announced (4K due Nov 2026) | No (Toy Robot Video, not Arrow) | S2E53 | Arrow Video's 4K UHD Steven Seagal Action Classic UNDER SIEGE (1992) | 2026-02-07 | Sam |  |
+| Above the Law (1988) | Arrow Video | Yes (4K, Nov 2026) | No (Toy Robot Video, not Arrow) | S2E53 | Arrow Video's 4K UHD Steven Seagal Action Classic UNDER SIEGE (1992) | 2026-02-07 | Sam |  |
 | Ace Ventura: When Nature Calls (1995) | 4K from Kino | No (4K import only (Australia, Jul 2026)) | — | S2E54 | Kino Lorber's New 4K Release of MOUSEHUNT (1997) AKA The Greatest Movie Ever Made | 2026-02-15 | Sam |  |
 | The Mexican (2001) | 4K from Kino | No | — | S2E54 | Kino Lorber's New 4K Release of MOUSEHUNT (1997) AKA The Greatest Movie Ever Made | 2026-02-15 | Kurt |  |
 | Moulin Rouge! (2001) | 4K | No | — | S2E54 | Kino Lorber's New 4K Release of MOUSEHUNT (1997) AKA The Greatest Movie Ever Made | 2026-02-15 | Kimberly |  |
