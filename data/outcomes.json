@@ -707,5 +707,25 @@
   ],
   "released": "2024-10-15",
   "manual": false
+ },
+ "Invaders from Mars (1986)": {
+  "status": "yes",
+  "detail": "4K, Dec 2022",
+  "pub": "Ignite Films",
+  "urls": [
+   "https://www.blu-ray.com/movies/Invaders-from-Mars-4K-Blu-ray/314492/"
+  ],
+  "released": "2022-12-16",
+  "manual": false
+ },
+ "The Killer (2023)": {
+  "status": "yes",
+  "detail": "4K, Nov 2024",
+  "pub": "Lionsgate",
+  "urls": [
+   "https://www.blu-ray.com/movies/The-Killers-Game-4K-Blu-ray/370557/"
+  ],
+  "released": "2024-11-19",
+  "manual": false
  }
 }

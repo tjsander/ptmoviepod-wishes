@@ -1789,6 +1789,27 @@
    "name": "Invaders from Mars (1986)",
    "uhd": false,
    "seen": "2026-10-13"
+  },
+  "https://www.blu-ray.com/movies/Invaders-from-Mars-4K-Blu-ray/336476/": {
+   "name": "Invaders from Mars 4K (Standard Edition) (195…",
+   "uhd": true,
+   "seen": "2026-11-17",
+   "pub": "Ignite Films",
+   "iso": "2023-07-11"
+  },
+  "https://www.blu-ray.com/movies/Invaders-from-Mars-4K-Blu-ray/314492/": {
+   "name": "Invaders from Mars 4K (Limited Edition) (with…",
+   "uhd": true,
+   "seen": "2026-11-17",
+   "pub": "Ignite Films",
+   "iso": "2022-12-16"
+  },
+  "https://www.blu-ray.com/movies/Invaders-from-Mars-Blu-ray/314493/": {
+   "name": "Invaders from Mars (Limited Edition) (with Ex…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Ignite Films",
+   "iso": "2022-12-16"
   }
  },
  "Judge Dredd (1995)": {
@@ -3172,6 +3193,115 @@
    "seen": "2026-11-01",
    "pub": "Warner Bros.",
    "iso": "2013-10-01"
+  }
+ },
+ "Nick of Time (1995)": {
+  "https://www.blu-ray.com/movies/Nick-of-Time-Blu-ray/186962/": {
+   "name": "Nick of Time (1995)",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Paramount",
+   "iso": "2022-02-15"
+  }
+ },
+ "The Killer (2023)": {
+  "https://www.blu-ray.com/movies/The-Killers-Game-4K-Blu-ray/370557/": {
+   "name": "The Killer's Game 4K (2024)",
+   "uhd": true,
+   "seen": "2026-11-17",
+   "pub": "Lionsgate",
+   "iso": "2024-11-19"
+  },
+  "https://www.blu-ray.com/movies/The-Killers-Game-4K-Blu-ray/370555/": {
+   "name": "The Killer's Game 4K (2024)",
+   "uhd": true,
+   "seen": "2026-11-17",
+   "pub": "Lionsgate",
+   "iso": "2024-11-19"
+  },
+  "https://www.blu-ray.com/movies/The-Killers-Game-Blu-ray/370556/": {
+   "name": "The Killer's Game (2024)",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Lionsgate",
+   "iso": "2024-11-19"
+  },
+  "https://www.blu-ray.com/movies/The-Killers-Blu-ray/99148/": {
+   "name": "The Killers (1946-1964)",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Criterion",
+   "iso": "2015-07-07"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Elite-Blu-ray/74286/": {
+   "name": "The Killer Elite (Limited Edition to 3000 - S…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Twilight Time",
+   "iso": "2014-09-09"
+  },
+  "https://www.blu-ray.com/movies/The-Killers-Live-From-The-Royal-Albert-Hall-Blu-ray/7940/": {
+   "name": "The Killers: Live From The Royal Albert Hall …",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Def Jam",
+   "iso": "2009-11-10"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Is-Not-Alone-Blu-ray/379655/": {
+   "name": "The Killer Is Not Alone (El Asesino No Esta S…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Mondo Macabro",
+   "iso": "2025-03-11"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Must-Kill-Again-Blu-ray/394513/": {
+   "name": "The Killer Must Kill Again (L'assassino e cos…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Rustblade",
+   "iso": "2025-11-11"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Must-Kill-Again-Blu-ray/394704/": {
+   "name": "The Killer Must Kill Again (L'assassino e cos…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Rustblade",
+   "iso": "2025-11-11"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-of-Dolls-Blu-ray/242206/": {
+   "name": "The Killer of Dolls (El asesino de munecas) (…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Mondo Macabro",
+   "iso": "2019-10-22"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Sci-Fi-3-Pack-Blu-ray/174643/": {
+   "name": "The Killer Sci Fi 3 Pack (Slipstream / C…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "SGL Entertainment",
+   "iso": "2017-06-13"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Is-One-of-Thirteen-Blu-ray/265479/": {
+   "name": "The Killer Is One of Thirteen (El asesino est…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Vinegar Syndrome",
+   "iso": "2020-04-28"
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Reserved-Nine-Seats-Blu-ray/316224/": {
+   "name": "The Killer Reserved Nine Seats (L'assassino h…",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": "Arrow",
+   "iso": null
+  },
+  "https://www.blu-ray.com/movies/The-Killer-Blu-ray/356247/": {
+   "name": "The Killer (2023)",
+   "uhd": false,
+   "seen": "2026-11-17",
+   "pub": null,
+   "iso": null
   }
  }
 }

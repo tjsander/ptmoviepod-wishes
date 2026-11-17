@@ -2,31 +2,31 @@
 
 ## Physical Therapy: A Movie Podcast — physical media wishes
 
-Release status checked 15 Nov 2026.
+Release status checked 17 Nov 2026.
 
 ## Leader board
 
 | | Kurt | Sam | Bobby | Kimberly | Guests |
 |---|---|---|---|---|---|
-| Wishes made | 96 | 92 | 18 | 11 | 16 |
+| Wishes made | 97 | 93 | 18 | 11 | 16 |
 | Repeat wishes 🔔 (shame, not counted) | 🙈 3 | 🤡 7 | 🙈 1 | 😇 0 | 😇 0 |
-| Came true (wished format released in the US) | 20 (21%) | 14 (15%) | 1 (6%) | 0 (0%) | 4 (25%) |
+| Came true (wished format released in the US) | 20 (21%) | 16 (17%) | 1 (6%) | 0 (0%) | 4 (25%) |
 | Announced with a release date | 4 | 1 | 0 | 0 | 0 |
 | Listed with no date yet | 3 | 7 | 0 | 1 | 0 |
 | Partly came true | 1 | 2 | 0 | 0 | 0 |
 | Will come true (announced + listed + half for partly) | 7.5 | 9 | 0 | 1 | 0 |
-| Fastest wish granted | Them!, 54 days | The Ring, -742 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
+| Fastest wish granted | Them!, 54 days | Invaders from Mars, -1003 days | The Crying Game, 816 days | — | Teenage Mutant Ninja Turtles II: The Secret of the Ooze, 152 days |
 | Longest wait for a granted wish | Mars Attacks!, 802 days | Day of the Dead, 824 days | The Crying Game, 816 days | — | Visitor Q, 554 days |
-| Average wait for a granted wish | 342 days | 336 days | 816 days | — | 374 days |
-| Granted (came true + will come true) | 🥇 27.5 (29%) | 🥈 23 (25%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
+| Average wait for a granted wish | 342 days | 186 days | 816 days | — | 374 days |
+| Granted (came true + will come true) | 🥇 27.5 (28%) | 🥈 25 (27%) | 1 (6%) | 1 (9%) | 🥉 4 (25%) |
 
 - **Kimberly:** no wish granted yet. The closest is Spartacus, which Blu-ray.com lists from Criterion with no date.
 - **Guests:** 6 guests made 16 wishes between them. Drew Hanks made the most (6) and has had 3 granted: Night of the Juggler and Visitor Q and Teenage Mutant Ninja Turtles II: The Secret of the Ooze.
 - **Most-wished film:** Django Unchained, wished three times by Sam and still not on 4K.
-- **Everyone:** 39 of 233 wishes have come true, counting guests.
+- **Everyone:** 41 of 235 wishes have come true, counting guests.
 - **Repeat wishes:** wishing for something already wished for on the show earns a Repeat 🔔 tag and no credit in these numbers. 11 so far.
 - **Counting:** repeat wishes are left out of every number above. Waits run from the episode date to the US release date.
-- **Unconfirmed:** 2 recent wishes were transcribed automatically and are waiting for a human check of who made them.
+- **Unconfirmed:** 4 recent wishes were transcribed automatically and are waiting for a human check of who made them.
 
 | Movie | Format wished for | Format came true? | Wished-for publisher? | Ep. | Episode | Date | Wished by | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -176,7 +176,7 @@ Release status checked 15 Nov 2026.
 | The Set-Up (1949) | 4K | No | — | S2E36 | Lucio Fulci's THE BEYOND (1981) | 2025-09-01 | Kurt |  |
 | Without Warning (1980) | 4K | No | — | S2E36 | Lucio Fulci's THE BEYOND (1981) | 2025-09-01 | Sam |  |
 | Cast Away (2000) | 4K | No | — | S2E37 | STEPHEN KING with John Bohlmann | 2025-09-14 | Kurt | First said Road to Perdition (4K) but believed he had already wished for it, so switched |
-| Invaders from Mars (1986) | 4K | No | — | S2E37 | STEPHEN KING with John Bohlmann | 2025-09-14 | Sam |  |
+| Invaders from Mars (1986) | 4K | Yes (4K, Dec 2022) | n/a (Ignite Films) | S2E37 | STEPHEN KING with John Bohlmann | 2025-09-14 | Sam |  |
 | Judge Dredd (1995) | 4K Arrow big box | No | — | S2E38 | COBRA (1986) | 2025-09-19 | Kurt |  |
 | Tango & Cash (1989) | Arrow big box | No | — | S2E38 | COBRA (1986) | 2025-09-19 | Sam |  |
 | Big Daddy (1999) | 4K | No | — | S2E39 | BILLY MADISON (1995) + HAPPY GILMORE (1996) with Drew Hanks | 2025-09-27 | Drew Hanks (guest) |  |
@@ -263,6 +263,8 @@ Release status checked 15 Nov 2026.
 | Sleepaway Camp (1983) | 4K big box from Arrow Video | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Sam |  |
 | Mandy (2018) | 4K | No | — | S3E08 | HORROR PICKS - Pt. 1 | 2026-10-16 | Kurt |  |
 | The Ring (2002) | 4K from Arrow Video | Yes (4K, Oct 2024) | No (Paramount, not Arrow) | S3E09 | HORROR PICKS - Pt. 2 | 2026-10-27 | Sam (unconfirmed) |  |
+| Nick of Time (1995) | 4K, probably Kino | No | — | S3E10 | THE SOCIAL NETWORK w/ Kelcey Ayer | 2026-11-16 | Kurt (unconfirmed) |  |
+| The Killer (2023) | 4K | Yes (4K, Nov 2024) | n/a (Lionsgate) | S3E10 | THE SOCIAL NETWORK w/ Kelcey Ayer | 2026-11-16 | Sam (unconfirmed) |  |
 
 ## Repeat wishes 🔔
 

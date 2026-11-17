@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-15",
+ "checked": "2026-11-17",
  "rows": [
   {
    "repeat": false,
@@ -5692,13 +5692,15 @@
     }
    ],
    "fmt": "4K",
-   "status": "no",
-   "detail": "",
-   "pub": null,
-   "label": "none",
-   "labelText": "",
-   "urls": [],
-   "released": null,
+   "status": "yes",
+   "detail": "4K, Dec 2022",
+   "pub": "Ignite Films",
+   "label": "n/a",
+   "labelText": "n/a (Ignite Films)",
+   "urls": [
+    "https://www.blu-ray.com/movies/Invaders-from-Mars-4K-Blu-ray/314492/"
+   ],
+   "released": "2022-12-16",
    "notes": ""
   },
   {
@@ -9274,6 +9276,82 @@
     "t": 2546,
     "fmt": "4K from Criterion"
    }
+  },
+  {
+   "repeat": false,
+   "ep": "S3E10",
+   "epn": 94,
+   "epTitle": "THE SOCIAL NETWORK w/ Kelcey Ayer",
+   "date": "2026-11-16",
+   "vid": "vh5tRxH2fh4",
+   "t": 4988,
+   "who": "Kurt",
+   "guest": false,
+   "confirmed": false,
+   "movie": "Nick of Time (1995)",
+   "segs": [
+    [
+     "Nick of Time (1995)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "Nick of Time",
+     "year": "1995",
+     "kind": "movie",
+     "id": 2086,
+     "poster": "/A1FJwUVg84sQSjHVz5jVMXQvifJ.jpg"
+    }
+   ],
+   "fmt": "4K, probably Kino",
+   "status": "no",
+   "detail": "",
+   "pub": null,
+   "label": "none",
+   "labelText": "",
+   "urls": [],
+   "released": null,
+   "notes": ""
+  },
+  {
+   "repeat": false,
+   "ep": "S3E10",
+   "epn": 94,
+   "epTitle": "THE SOCIAL NETWORK w/ Kelcey Ayer",
+   "date": "2026-11-16",
+   "vid": "vh5tRxH2fh4",
+   "t": 4988,
+   "who": "Sam",
+   "guest": false,
+   "confirmed": false,
+   "movie": "The Killer (2023)",
+   "segs": [
+    [
+     "The Killer (2023)",
+     0
+    ]
+   ],
+   "films": [
+    {
+     "title": "The Killer",
+     "year": "2023",
+     "kind": "movie",
+     "id": 800158,
+     "poster": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg"
+    }
+   ],
+   "fmt": "4K",
+   "status": "yes",
+   "detail": "4K, Nov 2024",
+   "pub": "Lionsgate",
+   "label": "n/a",
+   "labelText": "n/a (Lionsgate)",
+   "urls": [
+    "https://www.blu-ray.com/movies/The-Killers-Game-4K-Blu-ray/370557/"
+   ],
+   "released": "2024-11-19",
+   "notes": ""
   }
  ]
 }

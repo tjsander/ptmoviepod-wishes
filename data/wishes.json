@@ -2498,5 +2498,25 @@
   "repeat": true,
   "notes": [],
   "confirmed": false
+ },
+ {
+  "ep": 94,
+  "movie": "Nick of Time (1995)",
+  "fmt": "4K, probably Kino",
+  "who": "Kurt",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": false
+ },
+ {
+  "ep": 94,
+  "movie": "The Killer (2023)",
+  "fmt": "4K",
+  "who": "Sam",
+  "guest": false,
+  "repeat": false,
+  "notes": [],
+  "confirmed": false
  }
 ]

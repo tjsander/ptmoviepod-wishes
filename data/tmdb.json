@@ -2414,5 +2414,25 @@
    "year": "2002",
    "poster": "/AeRpUynJKDpJveklBJipOYrVxCS.jpg"
   }
+ ],
+ "Nick of Time (1995)": [
+  {
+   "q": "Nick of Time",
+   "kind": "movie",
+   "id": 2086,
+   "title": "Nick of Time",
+   "year": "1995",
+   "poster": "/A1FJwUVg84sQSjHVz5jVMXQvifJ.jpg"
+  }
+ ],
+ "The Killer (2023)": [
+  {
+   "q": "The Killer",
+   "kind": "movie",
+   "id": 800158,
+   "title": "The Killer",
+   "year": "2023",
+   "poster": "/e7Jvsry47JJQruuezjU2X1Z6J77.jpg"
+  }
  ]
 }
